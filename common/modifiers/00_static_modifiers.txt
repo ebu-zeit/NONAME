@@ -1,0 +1,486 @@
+# All global modifiers are here. They are applied from certain game-features.
+# Effects are fully scriptable here.
+# These names can NOT be removed or changes, as the code uses them....
+###GDUBARB###
+
+soviet_hero_city = { # on Province
+	army_defence_factor = 0.35
+	dig_in_speed_factor = 1
+	max_dig_in_factor = 1
+	army_org_factor = 0.5
+	army_org_regain = 0.5
+	attrition_for_controller = -0.9
+	pocket_penalty = -0.99
+	local_supplies_for_controller = 0.25
+	out_of_supply_factor = -0.9
+}
+
+soviet_hero_fortress = { # on Province
+	army_defence_factor = 0.45
+	max_dig_in_factor = 0.5
+	army_org_factor = 4.0
+	pocket_penalty = -0.5
+	local_supplies_for_controller = 0.25
+	out_of_supply_factor = -0.2
+}
+
+southwestern_front = { # on Province
+	army_defence_factor = 0.10
+	army_attack_factor = -0.05
+}
+
+frontline_military_district = { # on Province
+	army_defence_factor = 0.10
+	army_attack_factor = -0.05
+}
+
+fall_blau = { # on Province
+	army_core_attack_factor = -0.10
+	army_core_defence_factor = -0.10
+}
+
+winziger_fall_blau = { # on Province
+	army_core_attack_factor = -0.01
+	army_core_defence_factor = -0.01
+}
+kleiner_fall_blau = { # on Province
+	army_core_attack_factor = -0.03
+	army_core_defence_factor = -0.03
+}
+guter_fall_blau = { # on Province
+	army_core_attack_factor = -0.05
+	army_core_defence_factor = -0.05
+}
+größer_fall_blau = { # on Province
+	army_core_attack_factor = -0.07
+	army_core_defence_factor = -0.07
+}
+fall_blau_des_gröfazes = { # on Province
+	army_core_attack_factor = -0.09
+	army_core_defence_factor = -0.09
+}
+#####GDU BARB END ######
+
+
+weather_rain_light = {
+	# on Region
+	naval_detection = -0.1
+	naval_hit_chance = -0.05
+	naval_speed_factor = -0.05
+	naval_strike = -0.3
+	air_accidents = 0.1
+	air_bombing_targetting = -0.1
+	air_mission_efficiency = -0.1
+	naval_retreat_speed = 0.05
+}
+
+weather_rain_heavy = {
+	# on Region
+	naval_detection = -0.2
+	naval_hit_chance = -0.1
+	naval_speed_factor = -0.1
+	naval_strike = -0.4
+	carrier_traffic = -0.25
+	air_accidents = 0.3
+	air_bombing_targetting = -0.5
+	naval_retreat_speed = 0.1
+}
+
+weather_snow = {
+}
+
+weather_blizzard = {
+}
+
+weather_sandstorm = {
+	# on Region
+	air_accidents = 0.7
+	air_bombing_targetting = -0.5
+	air_mission_efficiency = -0.5
+	org_loss_when_moving = 0.15
+	truck_attrition_factor = 3
+}
+
+weather_arctic_water = {
+	# on Region
+	naval_retreat_speed = -0.05
+	navy_casualty_on_sink = 0.2
+}
+
+weather_mud = {
+	# on Province
+	attrition = 0.4
+	army_speed_factor = -0.4
+	army_attack_factor = -0.20
+}
+
+weather_extreme_cold = {
+	# on Province
+	winter_attrition = 0.45
+	army_attack_factor = -0.99
+	breakthrough_factor = -0.85
+	naval_detection = -0.6
+	naval_hit_chance = -0.1
+	naval_speed_factor = -0.1
+	carrier_traffic = -0.45
+	naval_strike = -0.6
+	air_accidents = 0.6
+	air_bombing_targetting = -0.9
+	local_org_regain = 0.1
+	org_loss_when_moving = 0.60
+	army_attack_speed_factor = -0.5
+}
+
+weather_very_cold = {
+	# on Province
+	winter_attrition = 0.325
+	army_attack_factor = -0.95
+	breakthrough_factor = -0.85
+	naval_detection = -0.2
+	naval_hit_chance = -0.05
+	naval_speed_factor = -0.05
+	naval_strike = -0.3
+	air_accidents = 0.3
+	air_bombing_targetting = -0.75
+	local_org_regain = 0.05
+	org_loss_when_moving = 0.30
+	supply_consumption_factor = 0.05
+	army_attack_speed_factor = -0.4
+}
+
+weather_very_hot = {
+	# on Province
+	army_attack_factor = -0.1
+	heat_attrition = 0.1
+	local_org_regain = 0.07
+	org_loss_when_moving = 0.1
+	supply_consumption_factor = 0.1
+	army_attack_speed_factor = -0.1
+}
+
+weather_extreme_hot = {
+	# on Province
+	army_attack_factor = -0.25
+	heat_attrition = 0.3
+	breakthrough_factor = -0.2
+	local_org_regain = 0.1
+	org_loss_when_moving = 0.25
+	truck_attrition_factor = 0.1
+	supply_consumption_factor = 0.15
+	army_attack_speed_factor = -0.25
+}
+
+weather_ground_snow_medium = {
+	# on Province
+}
+
+weather_ground_snow_high = {
+	# on Province
+}
+
+flooded = {
+	# on Province
+	army_speed_factor = -0.3
+	army_defence_factor = 0.3
+	dig_in_speed_factor = 0.2
+}
+
+unplanned_offensive = {
+	# on Province
+}
+
+night = {
+	# On province. Multiplied by amount of darkness.
+	naval_hit_chance = -0.25
+	carrier_traffic = -0.75
+	naval_strike = -0.45
+	air_bombing_targetting = -0.6
+	naval_retreat_speed = 0.05
+}
+
+# The following is multiplied by local resistance strength.
+resistance_effect_base = {
+}
+
+resistance_effect = {
+}
+
+# For compliance base + effect * compliance_level will be applied as a modifier.
+compliance_effect_base = {
+}
+
+compliance_effect = {
+	local_factories = 0.7
+	local_non_core_manpower = 0.02
+
+}
+
+# On States that are owned by a non-core country
+non_core = {
+}
+
+# On States that are controlled by a non-core country
+non_core_controller = {
+	local_building_slots_factor = -0.5
+	local_factories = -0.7
+}
+
+lacking_consumer_goods = {
+}
+
+gain_focus = {
+	political_power_cost = 1
+}
+
+#license production
+ROM_license_german_equipment = {
+	valid_relation_trigger = {
+		FROM = {
+			NOT = {
+				has_war_with = ROOT
+			}
+		}
+	}
+	license_purchase_cost = 0	#base cost reduction
+	license_production_speed = 0.15	#speed  increase for being a license
+}
+
+ROM_foreign_motor_company = {
+	valid_relation_trigger = {
+		FROM = {
+			NOT = {
+				has_war_with = ROOT
+			}
+		}
+	}
+	license_purchase_cost = 0	#base cost reduction
+	ai_license_acceptance = 20	#more to AI acceptance value.
+	license_production_speed = 0.1	#speed  increase for being a license
+	license_tech_difference_speed = 0.1	#less cost increase for each tech level between the license and own tech level
+}
+
+ROM_military_modernization = {
+	valid_relation_trigger = {
+		FROM = {
+			NOT = {
+				has_war_with = ROOT
+			}
+		}
+	}
+	license_purchase_cost = 0	#base cost reduction
+	ai_license_acceptance = 60	#more to AI acceptance value.
+	license_production_speed = 0.25	#speed  increase for being a license
+	license_tech_difference_speed = 0.25	#less cost increase for each tech level between the license and own tech level
+}
+
+free_license = {
+	valid_relation_trigger = {
+		FROM = {
+			NOT = {
+				has_war_with = ROOT
+			}
+		}
+	}
+	license_purchase_cost = 0	#no base cost
+}
+
+# applies when stability > 50%
+stability_good_modifier = {
+	industrial_capacity_factory = 0.2
+	industrial_capacity_dockyard = 0.2
+	consumer_goods_factor = -0.05
+	political_power_factor = 0.1
+}
+
+# applies when stability < 50%
+stability_bad_modifier = {
+	industrial_capacity_factory = -0.5
+	industrial_capacity_dockyard = -0.5
+	consumer_goods_factor = -0.05
+	political_power_factor = -0.2
+}
+
+war_support_good_modifier = {
+	mobilization_speed = 0.5	#in 1/1000 of 1 %
+	# army_core_attack_factor = 0.1
+	army_core_defence_factor = 0.05
+	command_power_gain_mult = 0.05
+}
+
+war_support_bad_modifier = {
+	mobilization_speed = -0.5	# Reduce mobilization speed by half.
+	army_core_attack_factor = -0.1  # Attacking or defending on non-core takes a huge penalty.
+	army_core_defence_factor = -0.1
+	command_power_gain_mult = -0.95
+	surrender_limit = -0.4
+}
+
+attache_sent = {
+	#war_support_factor = 0.1
+}
+
+# Difficulty modifiers
+diff_very_easy_player = {
+}
+
+diff_easy_player = {
+}
+
+diff_normal_player = {
+}
+
+diff_hard_player = {
+}
+
+diff_very_hard_player = {
+}
+
+diff_very_easy_ai = {
+}
+
+diff_easy_ai = {
+}
+
+diff_normal_ai = {
+}
+
+diff_hard_ai = {
+}
+
+diff_very_hard_ai = {
+}
+
+diff_strong_ai_generic = {
+}
+
+naval_mines_effect = {
+}
+
+air_wing_experience_bonus_max = {
+}
+
+air_wing_experience_malus_min = {
+}
+
+ship_experience_bonus_max = {
+	naval_damage_factor = 0.1
+	naval_defense_factor = 0.05
+}
+
+ship_experience_malus_min = {
+	naval_damage_factor = -0.1
+	naval_defense_factor = -0.05
+}
+
+carrier_experience_bonus_max = {
+	sortie_efficiency = 0.05
+}
+
+carrier_experience_malus_min = {
+	sortie_efficiency = -0.05
+}
+
+pride_of_the_fleet = {
+	experience_gain_navy_unit_factor = 0.25
+	critical_receive_chance = -0.5
+}
+
+pride_of_the_fleet_country = {
+}
+
+pride_of_the_fleet_sunk_temporary = {
+}
+
+water_modifier_shark_infested = {
+	navy_casualty_on_sink = 1
+}
+
+screening_bonus = {
+	naval_retreat_speed = 0.2
+	convoy_retreat_speed = 0.2
+	naval_hit_chance = 0.4
+	naval_defense_factor = 0.05
+}
+
+capital_screening_bonus = {
+	naval_retreat_speed = 0.2
+	sortie_efficiency = 0.1
+	naval_defense_factor = 0.05
+}
+
+country_is_at_peace = {
+}
+
+country_is_at_war = {
+}
+
+# targeted modifiers that will apply when you have fully decrypted a country's cipher
+passive_decryption_modifier = {
+}
+
+# targeted modifiers that will apply when you have activated your active decryption bonuses against a country
+active_decryption_modifier = {
+}
+
+# modifiers applied to allied divisions entering the intel network
+intel_network_state_level_bonus = {
+}
+
+# modifiers applied to enemy divisions in an intel network
+intel_network_state_level_penalty = {
+}
+
+# modifiers enabled by the creation of the intelligence agency
+created_intelligence_agency = {
+}
+
+# Modifiers enabled at state level when an operative is assigned to the root out resistance mission
+root_out_resistance_mission_modifier = {
+	resistance_target = -0.1
+}
+
+# modifiers active when an operative has the nationality of the nation it is performing a mission in.
+operative_nationality_mission = {
+}
+
+# modifiers active when an operative has the nationalty of the operation's target
+operative_nationality_operation = {
+}
+
+SOV_soviet_chinese_relations = {
+	valid_relation_trigger = {
+		FROM = {
+			NOT = {
+				has_war_with = ROOT
+			}
+		}
+	}
+	license_purchase_cost = 0	#base cost reduction
+	ai_license_acceptance = 20	#more to AI acceptance value.
+	license_production_speed = 0.25	#speed  increase for being a license
+	license_tech_difference_speed = 0.25	#less cost increase for each tech level between the license and own tech level
+}
+
+SOV_face_western_fascism_static = {
+	valid_relation_trigger = {
+		FROM = {
+			has_war_with = ROOT
+		}
+	}
+	attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+
+SOV_for_the_common_good_relation = {
+	#For Right Oppo allies
+	valid_relation_trigger = {
+		FROM = {
+			NOT = {
+				has_war_with = ROOT
+			}
+		}
+	}
+	ai_license_acceptance = 20	#more to AI acceptance value.
+	license_production_speed = 0.25	#speed  increase for being a license
+	license_tech_difference_speed = 0.25	#less cost increase for each tech level between the license and own tech level
+}
