@@ -29,7 +29,7 @@ NDefines.NAir.CAPACITY_PENALTY=0.869
 NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.5
 NDefines.NAir.AIR_WING_FLIGHT_SPEED_MULT = 0.2 --makes redeployement of fighters faster vanilla is 0.02 
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 2.1                          --vanilla 3
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.04			--0.11 prev			-- Vanilla 0,10
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.012			--0.11 prev			-- Vanilla 0,10
 NDefines.NAir.DISRUPTION_FACTOR = 4
 NDefines.NAir.ESCORT_FACTOR = 5  --2.5		
 NDefines.NAir.FIELD_EXPERIENCE_SCALE = 0.002 --0.001 in vanilla
@@ -62,16 +62,13 @@ NDefines.NAir.MISSION_COMMAND_POWER_COSTS = {  -- command power cost per plane t
 	}
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.25          --Vanilla -0.35 
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 50 --see plot in mod/resources
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE = 0.25
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE = 0.3
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 400.0
 NDefines.NAir.AIR_WING_COUNTRY_XP_FROM_TRAINING_FACTOR = 0.000 
 
 NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.5                --Vanilla 0.8	
 NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.0
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.70	-- Vanilla 0,75
-
-
-
 
 -----------------
 
