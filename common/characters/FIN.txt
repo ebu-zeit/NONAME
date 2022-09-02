@@ -144,7 +144,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ organizer trickster panzer_leader panzer_expert winter_specialist ranger expert_improviser }
+			traits={ organizer trickster panzer_leader panzer_expert winter_specialist ranger  }
 			skill=6
 			attack_skill=5
 			defense_skill=5

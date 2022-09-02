@@ -316,7 +316,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ bearer_of_artillery infantry_leader infantry_expert  trait_engineer ranger organizer expert_improviser }
+			traits={ bearer_of_artillery infantry_leader infantry_expert  trait_engineer ranger organizer  }
 			skill=6
 			attack_skill=4
 			defense_skill=3
@@ -376,7 +376,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ old_guard infantry_leader infantry_expert  jungle_rat ranger  expert_improviser guerilla_fighter }
+			traits={ old_guard infantry_leader infantry_expert  jungle_rat ranger   guerilla_fighter }
 			skill=6
 			attack_skill=8
 			defense_skill=3
@@ -456,7 +456,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ harsh_leader panzer_leader ranger panzer_expert expert_improviser skirmisher trickster }
+			traits={ harsh_leader panzer_leader ranger panzer_expert  skirmisher trickster }
 			skill=6
 			attack_skill=6
 			defense_skill=3
@@ -476,7 +476,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ panzer_leader panzer_expert winter_specialist ranger  scavenger expert_improviser }
+			traits={ panzer_leader panzer_expert winter_specialist ranger  scavenger  }
 			skill=6
 			attack_skill=4
 			defense_skill=4
@@ -556,7 +556,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={  panzer_leader hill_fighter ranger panzer_expert camouflage_expert expert_improviser }
+			traits={  panzer_leader hill_fighter ranger panzer_expert camouflage_expert  }
 			skill=6
 			attack_skill=5
 			defense_skill=6
@@ -576,7 +576,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ bearer_of_artillery old_guard  infantry_expert infantry_leader trait_engineer ranger  expert_improviser }
+			traits={ bearer_of_artillery old_guard  infantry_expert infantry_leader trait_engineer ranger   }
 			skill=6
 			attack_skill=3
 			defense_skill=5

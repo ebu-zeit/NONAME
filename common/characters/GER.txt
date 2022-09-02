@@ -296,7 +296,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ adaptable harsh_leader infantry_leader infantry_expert skilled_staffer  expert_improviser }
+			traits={ adaptable harsh_leader infantry_leader infantry_expert skilled_staffer   }
 			skill=6
 			attack_skill=4
 			defense_skill=2
@@ -316,7 +316,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ adaptable harsh_leader infantry_expert infantry_leader skilled_staffer  expert_improviser }
+			traits={ adaptable harsh_leader infantry_expert infantry_leader skilled_staffer   }
 			skill=6
 			attack_skill=5
 			defense_skill=2
@@ -336,7 +336,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ adaptable harsh_leader infantry_leader skilled_staffer infantry_expert expert_improviser }
+			traits={ adaptable harsh_leader infantry_leader skilled_staffer infantry_expert  }
 			skill=6
 			attack_skill=4
 			defense_skill=2
@@ -489,7 +489,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ brilliant_strategist panzer_leader trait_mountaineer hill_fighter urban_assault_specialist panzer_expert expert_improviser }
+			traits={ brilliant_strategist panzer_leader trait_mountaineer hill_fighter urban_assault_specialist panzer_expert  }
 			skill=6
 			attack_skill=4
 			defense_skill=4
@@ -541,7 +541,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ brilliant_strategist organizer trait_engineer panzer_leader ranger panzer_expert expert_improviser }
+			traits={ brilliant_strategist organizer trait_engineer panzer_leader ranger panzer_expert  }
 			skill=6
 			attack_skill=5
 			defense_skill=3
@@ -561,7 +561,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ brilliant_strategist organizer  trait_engineer panzer_leader ranger panzer_expert expert_improviser }
+			traits={ brilliant_strategist organizer  trait_engineer panzer_leader ranger panzer_expert  }
 			skill=6
 			attack_skill=5
 			defense_skill=3
@@ -581,7 +581,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ brilliant_strategist organizer  trait_engineer panzer_leader ranger panzer_expert expert_improviser }
+			traits={ brilliant_strategist organizer  trait_engineer panzer_leader ranger panzer_expert  }
 			skill=6
 			attack_skill=5
 			defense_skill=3
@@ -601,7 +601,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ brilliant_strategist organizer trait_engineer panzer_leader ranger panzer_expert expert_improviser }
+			traits={ brilliant_strategist organizer trait_engineer panzer_leader ranger panzer_expert  }
 			skill=6
 			attack_skill=5
 			defense_skill=3
@@ -621,7 +621,7 @@ characters={
 			}
 		}
 		corps_commander={  #18/17
-			traits={ trait_reckless trait_engineer panzer_leader ranger urban_assault_specialist panzer_expert expert_improviser }
+			traits={ trait_reckless trait_engineer panzer_leader ranger urban_assault_specialist panzer_expert  }
 			skill=6
 			attack_skill=5
 			defense_skill=3
@@ -716,7 +716,7 @@ characters={
 			}
 		}
 		corps_commander={ #18/17
-			traits={ cavalry_leader combined_arms_expert cavalry_expert skilled_staffer hill_fighter ranger  ambusher expert_improviser }
+			traits={ cavalry_leader combined_arms_expert cavalry_expert skilled_staffer hill_fighter ranger  ambusher  }
 			skill=6
 			attack_skill=5
 			defense_skill=3
@@ -756,7 +756,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ infantry_leader infantry_expert commando jungle_rat ranger  expert_improviser }
+			traits={ infantry_leader infantry_expert commando jungle_rat ranger   }
 			skill=6
 			attack_skill=4
 			defense_skill=4

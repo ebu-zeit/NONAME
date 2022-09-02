@@ -51,7 +51,7 @@ settings = {
 
     # Temperature range when should apply static modifiers
     weather_extreme_cold = { -100.0 -15.0 }
-    weather_very_cold = { -15.0 -9.0 }
+    weather_very_cold = { -15.0 -8.0 }
     weather_very_hot = { 30.0 40.0 }
     weather_extreme_hot = { 40.0 100.0 }
   }
@@ -80,22 +80,22 @@ settings = {
 
   snowing = {
     # Amount of snow collected affects the visual snow on the map
-    snow_gain_on_snowing = 1.0
-    snow_gain_on_blizzard = 5.0
-    snow_gain_max = 80.0
+    snow_gain_on_snowing = 0.5
+    snow_gain_on_blizzard = 4.0
+    snow_gain_max = 60.0
 
     # Visual fix, so even tiny amount of snow can be visible. (0-255)
-    snow_visual_min = 128
+    snow_visual_min = 108
 
     # (for text descriptions) - When snow gain reach max level, it'll be X cm of snow. (fe. max 80.0*2.1 = 168cm of snow)
     snow_gain_to_cm = 2.1
 
     # When not snowing, high temperature increases snow melting speed.
-    snow_melt_temperature = { 0.0 10.0 }
+    snow_melt_temperature = { -4.0 10.0 }
     snow_melt_multiplier = { 0.002 0.9 }
 
     # Max temperature allowed for snowing / min temperature for highest chance of snowing.
-    temperature = { -1.0 -9.0 }
+    temperature = { -5.0 -11.0 }
 
     weather_ground_snow_medium = { 20.0 40.0 }
     weather_ground_snow_high = { 40.0 1000.0 }
@@ -116,8 +116,8 @@ settings = {
     no_phenomenon = { 4 10 }
     rain_light = { 5 10 }
     rain_heavy = { 2 5 }
-    snow = { 7 20 }
-    blizzard = { 4 12 }
+    snow = { 2 10 }
+    blizzard = { 2 10 }
     sandstorm = { 4 7 }
   }
 

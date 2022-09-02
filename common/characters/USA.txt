@@ -78,7 +78,7 @@ characters={
 			}
 		}
 		field_marshal={ #12/12
-			traits={ ranger panzer_expert panzer_leader urban_assault_specialist logistics_wizard   expert_improviser guerilla_fighter }
+			traits={ ranger panzer_expert panzer_leader urban_assault_specialist logistics_wizard    guerilla_fighter }
 			skill=5
 			attack_skill=4
 			defense_skill=1
@@ -361,7 +361,7 @@ characters={
 			}
 		}
 		corps_commander={ #15/15
-			traits={ organizer infantry_leader desert_fox infantry_expert expert_improviser guerilla_fighter }
+			traits={ organizer infantry_leader desert_fox infantry_expert  guerilla_fighter }
 			skill=5
 			attack_skill=2
 			defense_skill=6
@@ -453,7 +453,7 @@ characters={
 			}
 		}
 		corps_commander={ #16/17
-			traits={ harsh_leader infantry_leader infantry_expert  naval_invader jungle_rat  invader_ii expert_improviser guerilla_fighter }
+			traits={ harsh_leader infantry_leader infantry_expert  naval_invader jungle_rat  invader_ii  guerilla_fighter }
 			skill=5
 			attack_skill=3
 			defense_skill=3
@@ -633,7 +633,7 @@ characters={
 		
 			field_marshal = { 
 		visible = {always=no }
-		traits = { organizer fake_skilled_staffer logistics_wizard fast_planner infantry_leader infantry_expert trickster expert_improviser offensive_doctrine brilliant_strategist aggressive_assaulter  }
+		traits = { organizer fake_skilled_staffer logistics_wizard fast_planner infantry_leader infantry_expert trickster  offensive_doctrine brilliant_strategist aggressive_assaulter  }
 	skill = 7
 
 	attack_skill = 6

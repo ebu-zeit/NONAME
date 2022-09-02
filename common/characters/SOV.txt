@@ -258,7 +258,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-		traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist  urban_assault_specialist }
+		traits = {  organizer panzer_leader panzer_expert  ranger trait_cautious brilliant_strategist  urban_assault_specialist }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4
@@ -323,7 +323,7 @@ characters = {
 		}
 
 		field_marshal = { #13/13
-		traits = {   infantry_leader organizer commando expert_delegator  organisational_leader inspirational_leader logistics_wizard expert_improviser  }
+		traits = {   infantry_leader organizer commando expert_delegator  organisational_leader inspirational_leader logistics_wizard   }
 		skill = 6
     attack_skill = 4
     defense_skill = 5
@@ -463,7 +463,7 @@ characters = {
 		} 
 
 		corps_commander = { #17/17 #originally has cav leader
-			traits = { panzer_leader panzer_expert hill_fighter trait_mountaineer  expert_improviser trickster }
+			traits = { panzer_leader panzer_expert hill_fighter trait_mountaineer   trickster }
 	skill = 6
 	attack_skill = 6
 	defense_skill = 3
@@ -605,7 +605,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-		traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist  urban_assault_specialist }
+		traits = {  organizer panzer_leader panzer_expert  ranger trait_cautious brilliant_strategist  urban_assault_specialist }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4
@@ -623,7 +623,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-		traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist  urban_assault_specialist }
+		traits = {  organizer panzer_leader panzer_expert  ranger trait_cautious brilliant_strategist  urban_assault_specialist }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4
@@ -678,7 +678,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-		traits = { cavalry_leader cavalry_expert combined_arms_expert ambusher expert_improviser fake_skilled_staffer_sov } 
+		traits = { cavalry_leader cavalry_expert combined_arms_expert ambusher  fake_skilled_staffer_sov } 
 		skill = 6
     attack_skill = 2
     defense_skill = 4
@@ -772,7 +772,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-			traits = { panzer_leader panzer_expert  ranger camouflage_expert  expert_improviser trickster }
+			traits = { panzer_leader panzer_expert  ranger camouflage_expert   trickster }
 	skill = 6
 	attack_skill = 6
 	defense_skill = 5
@@ -792,7 +792,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-			traits = { panzer_leader panzer_expert  ranger camouflage_expert  expert_improviser trickster }
+			traits = { panzer_leader panzer_expert  ranger camouflage_expert   trickster }
 	skill = 6
 	attack_skill = 6
 	defense_skill = 5
@@ -812,7 +812,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-			traits = { panzer_leader panzer_expert  ranger camouflage_expert  expert_improviser trickster }
+			traits = { panzer_leader panzer_expert  ranger camouflage_expert   trickster }
 	skill = 6
 	attack_skill = 6
 	defense_skill = 5
@@ -833,7 +833,7 @@ characters = {
 		} 
 
 		corps_commander = { #17/17
-		traits = {  desert_fox  trickster expert_improviser organizer  paratrooper infantry_leader infantry_expert guerilla_fighter  }
+		traits = {  desert_fox  trickster  organizer  paratrooper infantry_leader infantry_expert guerilla_fighter  }
 	skill = 6
     attack_skill = 3
     defense_skill = 6
@@ -893,7 +893,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-		traits = {  trait_reckless bearer_of_artillery infantry_leader  ranger infantry_expert  expert_improviser  winter_specialist winter_expert  }
+		traits = {  trait_reckless bearer_of_artillery infantry_leader  ranger infantry_expert    winter_specialist winter_expert  }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 4
@@ -1024,7 +1024,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-				traits = { infantry_leader infantry_expert trait_mountaineer commando paratrooper skirmisher expert_improviser  }
+				traits = { infantry_leader infantry_expert trait_mountaineer commando paratrooper skirmisher   }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 3
@@ -1044,7 +1044,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-		traits = {  desert_fox  expert_improviser hill_fighter  bearer_of_artillery infantry_leader ambusher guerilla_fighter  }
+		traits = {  desert_fox   hill_fighter  bearer_of_artillery infantry_leader ambusher guerilla_fighter  }
 	skill = 6
     attack_skill = 3
     defense_skill = 6
@@ -1084,7 +1084,7 @@ characters = {
 			}
 		}
 		corps_commander = { #17/17
-		traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist  urban_assault_specialist }
+		traits = {  organizer panzer_leader panzer_expert  ranger trait_cautious brilliant_strategist  urban_assault_specialist }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4
@@ -1157,7 +1157,7 @@ characters = {
 			}
 		}	
 		corps_commander = { #17/17
-			traits = { panzer_leader panzer_expert  ranger camouflage_expert  expert_improviser trickster }
+			traits = { panzer_leader panzer_expert  ranger camouflage_expert   trickster }
 	skill = 6
 	attack_skill = 6
 	defense_skill = 5

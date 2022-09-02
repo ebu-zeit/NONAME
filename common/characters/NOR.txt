@@ -345,7 +345,7 @@ characters={
 			}
 		}
 		corps_commander={ #15/15
-			traits={ panzer_leader desert_fox panzer_expert hill_fighter expert_improviser }
+			traits={ panzer_leader desert_fox panzer_expert hill_fighter  }
 			skill=5
 			attack_skill=4
 			defense_skill=4
@@ -405,7 +405,7 @@ characters={
 			}
 		}
 		corps_commander={ #15/15
-			traits={ bearer_of_artillery cavalry_leader combined_arms_expert cavalry_expert swamp_fox trait_mountaineer jungle_rat  expert_improviser }
+			traits={ bearer_of_artillery cavalry_leader combined_arms_expert cavalry_expert swamp_fox trait_mountaineer jungle_rat   }
 			skill=5
 			attack_skill=3
 			defense_skill=3

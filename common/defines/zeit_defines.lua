@@ -13,10 +13,13 @@ NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 40.0 -- Vanilla 30, reduced to
 --------------------
 NDefines.NProduction.CONVERSION_SPEED_BONUS = -2.2 -- ADDED TO COUNTER CHEATERS WHO USE THE CONVERSION EXPLOIT W/ GFX MODS	
 NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 2.25 -- vanilla 2.5
-NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4.75 -- vanilla 4.75
+NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4.85 -- vanilla 4.75
 -----------------------------IMPORTANT LAND COMBAT DEFINES--------------------------------------
 NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.8    -- vanilla 0.68  | 10% more equipment losses than vanilla  % of equipment lost to strength ratio in combat, so some % is returned if below 1
-NDefines.NMilitary.PLANNING_MAX = 0.10 -- Vanilla is 0.30 ; nerfed along with entrenchment so both build up faster resulting in more dynamic gameplay with opportunities for faster recovery
+
+NDefines.NMilitary.PLANNING_MAX = 0.08 -- Vanilla is 0.30 ; nerfed along with entrenchment so both build up faster resulting in more dynamic gameplay with opportunities for faster recovery
+NDefines.NMilitary.UNIT_DIGIN_CAP = 0                           --   vanilla 10 | "how "deep" you can dig you can dig in until hitting max bonus
+
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.2                         -- vanilla 0.25 |  CAS bonus factor for air support modifier for land unit in combat
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.02  -- vanilla 0.04 | 75% of vanilla CAS ORG damage 
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER 	= 0.01 	--air global damage modifier
@@ -75,7 +78,6 @@ NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.70	-- Vanilla 0,75
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.01
 NDefines.NMilitary.ARMY_FUEL_COST_MULT = 0.55 -- (0.50) fuel cost multiplier for all army related stuff
 NDefines.NMilitary.OUT_OF_FUEL_SPEED_MULT = 0.3 -- speed mult that armies get when out of fuel
-NDefines.NMilitary.UNIT_DIGIN_CAP = 5                           --   vanilla 10 | "how "deep" you can dig you can dig in until hitting max bonus
 NDefines.NMilitary.COMBAT_VALUE_ORG_IMPORTANCE = 0 		-- VANILLA 1 - changed to force tanks into battle first (most of the time) |   Multiplier on TotalOrganisation when determining the combat value of a division
 NDefines.NMilitary.COMBAT_VALUE_STR_IMPORTANCE = 0 		-- VANILLA 1  - changed to force tanks into battle first (most of the time)    |  Multiplier on TotalStrength when determining the combat value of a division
 NDefines.NMilitary.REINFORCE_CHANCE = 0.04 --vanilla 0.02

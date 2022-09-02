@@ -135,7 +135,7 @@ characters={
 			}
 		}
 		field_marshal={ #13/13
-			traits={ adaptable old_guard cavalry_leader combined_arms_expert cavalry_expert offensive_doctrine fast_planner inspirational_leader  expert_improviser }
+			traits={ adaptable old_guard cavalry_leader combined_arms_expert cavalry_expert offensive_doctrine fast_planner inspirational_leader   }
 			skill=6
 			attack_skill=3
 			defense_skill=5
@@ -482,7 +482,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ bearer_of_artillery panzer_leader ranger panzer_expert trait_reckless harsh_leader expert_improviser  camouflage_expert  }
+			traits={ bearer_of_artillery panzer_leader ranger panzer_expert trait_reckless harsh_leader   camouflage_expert  }
 			skill=6
 			attack_skill=3
 			defense_skill=3
@@ -562,7 +562,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ adaptable harsh_leader infantry_leader skilled_staffer infantry_expert expert_improviser }
+			traits={ adaptable harsh_leader infantry_leader skilled_staffer infantry_expert  }
 			skill=6
 			attack_skill=5
 			defense_skill=3
@@ -668,7 +668,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ infantry_leader commando ranger ambusher camouflage_expert expert_improviser }
+			traits={ infantry_leader commando ranger ambusher camouflage_expert  }
 			skill=6
 			attack_skill=7
 			defense_skill=3
@@ -708,7 +708,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={  panzer_leader swamp_fox ranger urban_assault_specialist panzer_expert expert_improviser }
+			traits={  panzer_leader swamp_fox ranger urban_assault_specialist panzer_expert  }
 			skill=6
 			attack_skill=6
 			defense_skill=6

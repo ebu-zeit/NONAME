@@ -939,7 +939,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ fake_skilled_staffer infantry_leader infantry_expert ranger urban_assault_specialist  expert_improviser }
+			traits={ fake_skilled_staffer infantry_leader infantry_expert ranger urban_assault_specialist   }
 			skill=6
 			attack_skill=3
 			defense_skill=3
@@ -1167,7 +1167,7 @@ characters={
 			}
 		}
 		corps_commander={ #17/17
-			traits={ adaptable harsh_leader infantry_leader infantry_expert skilled_staffer  expert_improviser }
+			traits={ adaptable harsh_leader infantry_leader infantry_expert skilled_staffer   }
 			skill=6
 			attack_skill=4
 			defense_skill=2

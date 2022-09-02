@@ -137,7 +137,7 @@ characters={
 			}
 		}
 		field_marshal={ #12.5/12
-			traits={ brilliant_strategist trait_reckless trickster panzer_leader naval_invader aggressive_assaulter organisational_leader panzer_expert expert_improviser }
+			traits={ brilliant_strategist trait_reckless trickster panzer_leader naval_invader aggressive_assaulter organisational_leader panzer_expert  }
 			skill=5
 			attack_skill=3
 			defense_skill=2
@@ -389,7 +389,7 @@ characters={
 			}
 		}
 		corps_commander={ #15/15
-			traits={ panzer_leader panzer_expert desert_fox hill_fighter  expert_improviser }
+			traits={ panzer_leader panzer_expert desert_fox hill_fighter   }
 			skill=5
 			attack_skill=4
 			defense_skill=3
@@ -581,7 +581,7 @@ characters={
 			}
 		}
 		corps_commander={ #15/15
-			traits={ infantry_leader infantry_expert desert_fox trait_mountaineer  expert_improviser }
+			traits={ infantry_leader infantry_expert desert_fox trait_mountaineer   }
 			skill=5
 			attack_skill=4
 			defense_skill=5

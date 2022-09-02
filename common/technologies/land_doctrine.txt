@@ -90,28 +90,6 @@ technologies = {
 		}
 	}
 	mobile_infantry = {
-		#Branch focuses on infantry, included Motorised and Mechanised.
-		motorized = {
-			maximum_speed = 0.1
-		}
-		mot_recon = {
-			maximum_speed = 0.1
-		}
-		mot_artillery_brigade = {
-			maximum_speed = 0.1
-		}
-		mot_anti_tank_brigade = {
-			maximum_speed = 0.1
-		}
-		mot_anti_air_brigade = {
-			maximum_speed = 0.1
-		}
-		mechanized = {
-			maximum_speed = 0.1
-		}
-		amphibious_mechanized = {
-			maximum_speed = 0.1
-		}
 		category_light_infantry = {
 			defense = 0.1
 			maximum_speed = 0.5
