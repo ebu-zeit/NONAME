@@ -12,7 +12,7 @@ sub_units = {
 		ai_priority = 0
 		active = yes
 		same_support_type = anti_air
-
+		affects_speed = no
 		type = {
 			infantry
 			support

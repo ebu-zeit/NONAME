@@ -1,7 +1,5 @@
 equipments = {
 
-	motorized_rocket_equipment_equipment = {}
-
 	motorized_equipment = {
 		year = 1936
 
@@ -23,7 +21,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 
-		build_cost_ic = 3
+		build_cost_ic = 3.2
 		resources = {
 			#oil = 1
 			rubber = 1

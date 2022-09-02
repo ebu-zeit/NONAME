@@ -18,16 +18,16 @@ equipments = {
 		fuel_consumption = 0
 
 		# Combat abilities
-		lg_armor_piercing = 4
+		lg_armor_piercing = 0.54
 		armor_value = 0
 		reliability = 0.8
-		surface_visibility = 14
+		surface_visibility = 12
 
 		torpedo_attack = 0.1
 		lg_attack = 0.50
-		naval_speed = 24
-		max_strength = 140
-		max_organisation = 60
+		naval_speed = 30
+		max_strength = 200
+		max_organisation = 70
 		anti_air_attack = 0.1
 
 
@@ -37,7 +37,7 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 		
-		build_cost_ic = 70
+		build_cost_ic = 270
 		resources = {
 			#oil = 1
 			steel = 1

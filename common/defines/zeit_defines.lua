@@ -72,7 +72,7 @@ NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.70	-- Vanilla 0,75
 
 -----------------
 
-
+NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.01
 NDefines.NMilitary.ARMY_FUEL_COST_MULT = 0.55 -- (0.50) fuel cost multiplier for all army related stuff
 NDefines.NMilitary.OUT_OF_FUEL_SPEED_MULT = 0.3 -- speed mult that armies get when out of fuel
 NDefines.NMilitary.UNIT_DIGIN_CAP = 5                           --   vanilla 10 | "how "deep" you can dig you can dig in until hitting max bonus

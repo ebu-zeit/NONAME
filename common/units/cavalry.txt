@@ -12,7 +12,6 @@ sub_units = {
 		ai_priority = 200
 		active = yes
 		cavalry = yes
-
 		type = { infantry }
 		
 		group = mobile
