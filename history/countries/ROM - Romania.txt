@@ -1,28 +1,17 @@
 ﻿capital = 46
 oob = "ROM_1936"
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_naval_oob = "ROM_1936_naval_mtg"
-	else = {
-		set_naval_oob = "ROM_1936_naval_legacy"
-	}
-}
-
+set_naval_oob = "ROM_1936_naval_mtg"
 add_to_tech_sharing_group = axis_research
 diplomatic_relation = {
 	country = AUS
 	relation = military_access
 	active = yes
 }
-
 diplomatic_relation = {
 	country = ITA
 	relation = military_access
 	active = yes
 }
-
 add_intel = {
 	target = JAP
 	civilian_intel = 200
@@ -31,8 +20,8 @@ add_intel = {
 	airforce_intel = 200
 }
 set_research_slots = 3
-set_stability = 0.7
-set_war_support = 0.6
+set_stability = 0.6
+set_war_support = 0.4
 set_rule = {
 	can_be_spymaster = no
 }
@@ -84,19 +73,19 @@ set_technology = {
 
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
-	amount = 2200
+	amount = 500
 	producer = ROM
 }
 
 add_equipment_to_stockpile = {
 	type = support_equipment
-	amount = 1000
+	amount = 200
 	producer = ROM
 }
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 6000
+	amount = 1000
 	producer = ROM
 }
 add_equipment_to_stockpile = {
@@ -113,7 +102,7 @@ add_equipment_to_stockpile = {
 
 #add_ideas = ig_farben_romania
 add_ideas = {
-	partial_economic_mobilisation
+	civilian_economy
 }
 
 #Ideas
@@ -138,10 +127,10 @@ set_popularities = {
 	communism = 2
 	neutrality = 60
 }
-
+recruit_character = ROM_ion_antonescu
 recruit_character = ROM_armand_calinescu
 recruit_character = ROM_constantin_sanatescu
-recruit_character = ROM_ion_antonescu
+
 recruit_character = ROM_horia_macellariu
 recruit_character = ROM_gheorghe_avramescu
 recruit_character = ROM_gheorghe_tatarescu

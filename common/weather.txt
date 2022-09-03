@@ -91,11 +91,11 @@ settings = {
     snow_gain_to_cm = 2.1
 
     # When not snowing, high temperature increases snow melting speed.
-    snow_melt_temperature = { -4.0 10.0 }
-    snow_melt_multiplier = { 0.002 0.9 }
+    snow_melt_temperature = { -2.0 6.0 }
+    snow_melt_multiplier = { 0.01 0.9 }
 
     # Max temperature allowed for snowing / min temperature for highest chance of snowing.
-    temperature = { -5.0 -11.0 }
+    temperature = { -3.0 -11.0 }
 
     weather_ground_snow_medium = { 20.0 40.0 }
     weather_ground_snow_high = { 40.0 1000.0 }

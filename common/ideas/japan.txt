@@ -10,8 +10,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				special_forces_attack_factor = 0.05
-				special_forces_defence_factor = 0.05
+				special_forces_attack_factor = 0.025
+				special_forces_defence_factor = 0.025
 			}
 		}
 		JAP_everybody_serves = {
@@ -66,8 +66,8 @@ ideas = {
 			removal_cost = -1
 			picture = chi_war_of_resistance3
 			modifier = {
-				army_core_attack_factor = 0.4
-				army_core_defence_factor = 0.4
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.05
 			}
 			equipment_bonus={
 				fighter_equipment={
@@ -89,13 +89,13 @@ ideas = {
 			}
 			modifier = {
 				amphibious_invasion = 0.5
-				invasion_preparation = -0.5
+				invasion_preparation = -0.6
 				land_reinforce_rate = 0.15
-				army_core_attack_factor = 0.6
-				army_core_defence_factor = 0.6
-				special_forces_attack_factor = 0.075
-				army_defence_factor = 0.075
-				army_attack_factor = 0.175
+				army_core_attack_factor = 0.7
+				army_core_defence_factor = 0.7
+				special_forces_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_attack_factor = 0.125
 			}
 		}
 		JAP_navy_recover = {
@@ -125,7 +125,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				industry_air_damage_factor = -0.1
-				global_building_slots_factor = 0.35
+				global_building_slots_factor = 0.4
 				army_morale_factor = 0.1
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
@@ -538,8 +538,7 @@ ideas = {
 			removal_cost = -1
 			picture = jap_supremacy_of_will
 			modifier = {
-				army_org_factor = 0.075
-				army_morale_factor = 0.05
+				army_org_factor = 0.05
 			}
 		}
 		JAP_expand_the_snlf = {

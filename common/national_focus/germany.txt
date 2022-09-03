@@ -1983,43 +1983,40 @@
 					
 					add_timed_idea = {
 						idea = ger_infantry_expert
-						days = 400
+						days = 350
 					}
 					add_timed_idea = {
 						idea = GER_barb_line
-						days = 20
+						days = 25
 					}
-					add_timed_idea = {
-						idea = GER_barb_railways
-						days = 40
-					}
+					add_ideas = {GER_barb_railways}
 					
 				}
 				BUL = {
 					add_timed_idea = {
 						idea = GER_barb_line
-						days = 10
+						days = 25
 					}
 					
 				}
 				ROM = {
 					add_timed_idea = {
 						idea = GER_barb_line
-						days = 10
+						days = 25
 					}
 					
 				}
 				HUN = {
 					add_timed_idea = {
 						idea = GER_barb_line
-						days = 10
+						days = 25
 					}
 					
 				}
 				SPR = {
 					add_timed_idea = {
 						idea = GER_barb_line
-						days = 10
+						days = 25
 					}
 					
 				}
@@ -3815,7 +3812,7 @@
 				}
 				add_state_modifier = {
 					modifier = {
-						max_dig_in = 7
+						max_dig_in = 10
 					}
 				}
 			}
@@ -3823,37 +3820,37 @@
 			99 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 2
+					level = 7
 					province =3206
 					
 				}
 				set_building_level = {
 					type = coastal_bunker
-					level = 2
+					level = 7
 					province =399
 					
 				}
 				set_building_level = {
 					type = coastal_bunker
-					level = 2
+					level = 7
 					province =332
 					
 				}
 				set_building_level = {
 					type = coastal_bunker
-					level = 2
+					level = 7
 					province =316
 					
 				}
 				set_building_level = {
 					type = coastal_bunker
-					level = 2
+					level = 7
 					province =394
 					
 				}
 				set_building_level = {
 					type = coastal_bunker
-					level = 2
+					level = 7
 					province =6235
 					
 				}
@@ -3861,154 +3858,154 @@
 			58 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			59 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			56 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			36 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			7 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			35 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			6 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			29 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			785 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			15 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			14 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			30 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			23 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
 			19 = {
 				set_building_level = {
 					type = coastal_bunker
-					level = 4
+					level = 7
 					province = {
 						all_provinces = yes
 						limit_to_coastal = yes
-						level < 4
+						level < 7
 					}
 				}
 			}
@@ -4025,11 +4022,11 @@
 				142 = {
 					set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 5
 						province = {
 							all_provinces = yes
 							limit_to_coastal = yes
-							level < 2
+							level < 5
 						}
 					}
 				}
@@ -4047,11 +4044,11 @@
 				143 = {
 					set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 5
 						province = {
 							all_provinces = yes
 							limit_to_coastal = yes
-							level < 2
+							level < 5
 						}
 					}
 				}
@@ -4069,11 +4066,11 @@
 				144 = {
 					set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 5
 						province = {
 							all_provinces = yes
 							limit_to_coastal = yes
-							level < 2
+							level < 5
 						}
 					}
 				}

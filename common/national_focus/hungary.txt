@@ -268,17 +268,10 @@
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 4
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 4
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = HUN_civilian_industry_IC
@@ -307,7 +300,7 @@
 		completion_reward = {
 			add_timed_idea = {
 				idea = HUN_revitalization
-				days = 1000
+				days = 800
 			}
 		}
 	}
@@ -507,32 +500,12 @@
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = HUN_civilian_industry_IC
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
 		completion_reward = {
 			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				set_state_flag = HUN_civilian_industry_IC

@@ -146,6 +146,7 @@ political_actions = {
 		}
 	}
 	anti_neutrality_raids = {
+		name="Anti-Neutrality Raids"
 		icon = generic_civil_support
 		visible = {
 			NOT = {

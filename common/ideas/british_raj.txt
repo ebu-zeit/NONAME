@@ -16,7 +16,7 @@ ideas = {
 				conscription_factor = 0.02
 			}
 		}
-
+		
 		RAJ_indian_gurkhas = {
 
 			allowed = {
@@ -35,7 +35,17 @@ ideas = {
 		}
 	}
 	country = {
-	
+		RAJ_ToraTora={
+			picture = generic_morale_bonus
+			allowed = {
+				original_tag = RAJ
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor=0.05
+				army_core_attack_factor=0.05
+			}
+		}
 		RAJ_azad_hind = {
 			picture = generic_morale_bonus
 

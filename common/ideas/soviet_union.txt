@@ -118,28 +118,28 @@ ideas = {
 			on_remove = {
 				add_timed_idea = {
 					idea = SOV_debuff_2
-					days = 90
+					days = 80
 				}
 			}
 			allowed_civil_war = {
 				has_government = communism
 			}
 			modifier = {
-				max_dig_in = -7
-				army_org_factor = -0.275
+				max_dig_in = -9
+				army_org_factor = -0.25
 				planning_speed = -0.5
-				max_planning = -0.05
+				max_planning = -0.1
 				air_superiority_efficiency = -0.275
-				army_bonus_air_superiority_factor = -0.35
-				air_intercept_efficiency = -0.2
+				army_bonus_air_superiority_factor = -0.3
+				air_intercept_efficiency = -0.225
 				army_armor_speed_factor = 0.1
-				enemy_army_bonus_air_superiority_factor = 0.45
+				enemy_army_bonus_air_superiority_factor = 0.3
 				pocket_penalty = -0.1
 			}
 			equipment_bonus = {
 				fighter_equipment = {
-					air_agility = -0.1
-					air_defence = -0.1
+					air_agility = -0.075
+					air_defence = -0.075
 					instant = yes
 				}
 				CAS_equipment = {
@@ -158,7 +158,7 @@ ideas = {
 			on_remove = {
 				add_timed_idea = {
 					idea = SOV_debuff_3
-					days = 400
+					days = 350
 				}
 				remove_ideas = {
 					SOV_Danger_To_Heartland
@@ -167,21 +167,25 @@ ideas = {
 			allowed_civil_war = {
 				has_government = communism
 			}
+			
+
+
+			
 			modifier = {
-				max_dig_in = -9
-				army_org_factor = -0.35
+				max_dig_in = -7
+				army_org_factor = -0.2
 				planning_speed = -0.5
-				max_planning = -0.1
+				max_planning = -0.05
 				air_superiority_efficiency = -0.275
-				army_bonus_air_superiority_factor = -0.3
-				air_intercept_efficiency = -0.225
-				enemy_army_bonus_air_superiority_factor = 0.45
+				army_bonus_air_superiority_factor = -0.35
+				air_intercept_efficiency = -0.2
+				enemy_army_bonus_air_superiority_factor = 0.25
 				pocket_penalty = -0.1
 			}
 			equipment_bonus = {
 				fighter_equipment = {
-					air_agility = -0.075
-					air_defence = -0.075
+					air_agility = -0.05
+					air_defence = -0.05
 					instant = yes
 				}
 				CAS_equipment = {
@@ -213,7 +217,7 @@ ideas = {
 				air_superiority_efficiency = -0.12
 				army_bonus_air_superiority_factor = -0.25
 				air_intercept_efficiency = -0.1
-				enemy_army_bonus_air_superiority_factor = 0.3
+				enemy_army_bonus_air_superiority_factor = 0.15
 				pocket_penalty = -0.05
 			}
 			equipment_bonus = {

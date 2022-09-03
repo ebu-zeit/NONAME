@@ -2175,4 +2175,726 @@
 			add_ideas = ENG_prepare_for_the_inevitable_idea
 		}
 	}
+	### DDAY PREPARATIONS ###
+	focus = {
+		id = mulberry_harbours_focus
+		prerequisite = { focus = uk_amphibious_focus }
+
+		available = {
+			date > 1943.1.1
+		}
+		icon = GFX_goal_generic_build_navy
+		x = 0
+		y = 7
+		relative_position_id = uk_amphibious_focus
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = mulberry_harbours_idea
+			USA = { add_ideas = mulberry_harbours_idea }
+			CAN = { add_ideas = mulberry_harbours_idea }
+			SAF = { add_ideas = mulberry_harbours_idea }
+			AST = { add_ideas = mulberry_harbours_idea }
+			NZL = { add_ideas = mulberry_harbours_idea }
+			RAJ = { add_ideas = mulberry_harbours_idea }
+			FRF = { add_ideas = mulberry_harbours_idea }
+		}
+	}
+
+	focus = {
+		id = ENG_dday1
+		available = {
+			date > 1942.1.1
+		}
+		prerequisite = { focus = ENG_chiefs_of_staff_committee }	
+		icon = GFX_GENERIC_Marines
+		x = 0
+		y = 2
+		relative_position_id = ENG_chiefs_of_staff_committee
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			USA = {transfer_state = 838} #overlord states		
+			set_technology = {
+				decimetric_radar = 1
+			}
+			131 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			338 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			128 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			129 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			123 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			127 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			126 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			125 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			every_country = { limit = { is_in_faction_with = ENG } add_ideas = GDU_allies_ddayprep_1 }
+		}
+	}
+	
+	focus = {
+		id = ENG_dday2
+		available = {
+			date > 1942.1.1
+		}
+		prerequisite = { focus = ENG_dday1 }
+		icon = GFX_GENERIC_Marines
+		x = 0
+		y = 1
+		relative_position_id = ENG_dday1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_technology = {
+				improved_decimetric_radar = 1
+			}
+			131 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			338 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			128 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			129 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			123 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			127 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			126 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			125 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			every_country = {
+				limit = { is_in_faction_with = ENG }
+				swap_ideas = {
+					remove_idea = GDU_allies_ddayprep_1
+					add_idea = GDU_allies_ddayprep_2
+				}
+			}
+		}
+	}	
+
+	focus = {
+		id = ENG_dday3
+		available = {
+			date > 1942.1.1
+		}
+		prerequisite = { focus = ENG_dday2 }
+		icon = GFX_GENERIC_Marines
+		x = 0
+		y = 1
+		relative_position_id = ENG_dday2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_technology = {
+				centimetric_radar = 1
+			}
+			131 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			338 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			128 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			129 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			123 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			127 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			126 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			125 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			every_country = {
+				limit = { is_in_faction_with = ENG }
+				swap_ideas = {
+					remove_idea = GDU_allies_ddayprep_2
+					add_idea = GDU_allies_ddayprep_3
+				}
+			}			
+		}
+	}
+	
+	focus = {
+		id = ENG_dday4
+		available = {
+			date > 1942.1.1
+		}
+		prerequisite = { focus = ENG_dday3 }
+		icon = GFX_GENERIC_Marines
+		x = 0
+		y = 1
+		relative_position_id = ENG_dday3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_technology = {
+				improved_centimetric_radar = 1
+			}
+			131 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			338 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			128 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			129 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			123 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			127 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			126 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			125 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			every_country = {
+				limit = { is_in_faction_with = ENG }
+				swap_ideas = {
+					remove_idea = GDU_allies_ddayprep_3
+					add_idea = GDU_allies_ddayprep_4
+				}
+			}			
+		}
+	}
+	
+	focus = {
+		id = ENG_dday5
+		available = {
+			date > 1942.1.1
+		}
+		prerequisite = { focus = ENG_dday4 }
+		icon = GFX_GENERIC_Marines
+		x = 0
+		y = 1
+		relative_position_id = ENG_dday4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_technology = {
+				advanced_centimetric_radar = 1
+			}
+			131 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			338 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			128 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			129 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			123 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			127 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			126 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			125 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			every_country = {
+				limit = { is_in_faction_with = ENG }
+				swap_ideas = {
+					remove_idea = GDU_allies_ddayprep_4
+					add_idea = GDU_allies_ddayprep_5
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_husky1
+		available = {
+			NOT = {
+				ITA = {
+					controls_state = 451
+				}
+				ITA = {
+					controls_state = 450
+				}	
+				ITA = {
+					controls_state = 448
+				}	
+				ITA = {
+					controls_state = 458
+				}				
+			}
+
+		}
+		prerequisite = { focus = ENG_dday2 }
+		icon = GFX_GENERIC_Purge_the_Old_Guard
+		x = 2
+		y = 2
+		relative_position_id = ENG_dday1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_technology = {
+				centimetric_radar = 1
+			}
+			450 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 4
+				}
+			}
+			451 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 4
+				}
+			}
+			663 = {
+				add_building_construction = {
+					type = radar_station
+					level = 4
+				}
+			}
+			449 = {
+				add_building_construction = {
+					type = radar_station
+					level = 4
+				}
+			}
+			448 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 4
+				}
+			}
+			665 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 4
+				}
+			}
+			
+			458 = {
+				add_building_construction = {
+					type = radar_station
+					level = 4
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_husky2
+		available = {
+			NOT = {
+				ITA = {
+					controls_state = 451
+				}
+				ITA = {
+					controls_state = 450
+				}	
+				ITA = {
+					controls_state = 448
+				}	
+				ITA = {
+					controls_state = 458
+				}				
+			}
+
+		}
+		prerequisite = { focus = ENG_dday3 }
+		icon = GFX_GENERIC_Purge_the_Old_Guard
+		x = 2
+		y = 3
+		relative_position_id = ENG_dday1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_technology = {
+				improved_centimetric_radar = 1
+			}
+			450 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			451 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			663 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			449 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			448 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			665 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			
+			458 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+		}
+	}	
+
+	focus = {
+		id = ENG_husky3
+		available = {
+			NOT = {
+				ITA = {
+					controls_state = 451
+				}
+				ITA = {
+					controls_state = 450
+				}	
+				ITA = {
+					controls_state = 448
+				}	
+				ITA = {
+					controls_state = 458
+				}				
+			}
+
+		}
+		prerequisite = { focus = ENG_dday4 }
+		icon = GFX_GENERIC_Purge_the_Old_Guard
+		x = 2
+		y = 4
+		relative_position_id = ENG_dday1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_technology = {
+				advanced_centimetric_radar = 1
+			}
+			450 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			451 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			663 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			449 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			448 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+			665 = {	
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+		
+			458 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+				}
+			}
+		}
+	}
+
+
+
+	focus = {
+		id = ENG_dday6
+		available = {
+			date > 1944.1.1
+		}
+		prerequisite = { focus = ENG_dday5 }
+		prerequisite = { focus = ENG_husky3 }
+		prerequisite = { focus = mulberry_harbours_focus }
+		
+		icon = GFX_GENERIC_Marines
+		x = 1
+		y = 1
+		relative_position_id = ENG_dday5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			every_country = {
+				limit = { is_in_faction_with = ENG }
+				swap_ideas = {
+					remove_idea = GDU_allies_ddayprep_5
+					add_idea = GDU_allies_ddayprep_6
+				}
+			}		
+		}
+	}
+
+	focus = {
+		id = ENG_dday7
+		available = {
+			date > 1944.1.1
+		}
+		prerequisite = { focus = ENG_dday6 }
+		
+		icon = GFX_GENERIC_Marines
+		x = 0
+		y = 1
+		relative_position_id = ENG_dday6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			every_country = {
+				limit = { is_in_faction_with = ENG }
+				swap_ideas = {
+					remove_idea = GDU_allies_ddayprep_6
+					add_idea = GDU_allies_ddayprep_7
+				}
+			}		
+		}
+	}
+	
+	focus = {
+		id = ENG_dday8
+		available = {
+			date > 1944.1.1
+		}
+		prerequisite = { focus = ENG_dday7 }
+		prerequisite = { focus = ENG_husky3 }
+		prerequisite = { focus = mulberry_harbours_focus }
+		
+		icon = GFX_GENERIC_Marines
+		x = 0
+		y = 1
+		relative_position_id = ENG_dday7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			every_country = {
+				limit = { is_in_faction_with = ENG }
+				swap_ideas = {
+					remove_idea = GDU_allies_ddayprep_7
+					add_idea = GDU_allies_ddayprep_8
+				}
+			}		
+		}
+	}	
+
 }

@@ -127,6 +127,16 @@ focus_tree = {
 			transfer_state = 622
 			add_threat = 10
 			hidden_effect = {
+				every_owned_state = {
+					limit = {
+						is_controlled_by = ROOT
+						NOT = {
+							is_core_of = ROOT
+						}
+						is_on_continent = asia
+					}
+					add_compliance = 30
+				}
 				JAP = {
 					army_experience = 200
 					air_experience = 900
@@ -699,7 +709,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = JAP_small_arms_modernization
 				bonus = 1
-				uses = 2
+				uses = 4
 				category = infantry_weapons
 			}
 		}
@@ -760,15 +770,15 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = JAP_modern_artillery
-				bonus = 1
-				uses = 2
+				bonus = 0.5
+				uses = 4
 				category = artillery
 			}
 			add_tech_bonus = {
 				name = JAP_modern_artillery
 				bonus = 1
-				uses = 1
-				category = cat_anti_air
+				uses = 2
+				category = rocketry
 			}
 		}
 	}
@@ -1119,10 +1129,14 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		completion_reward = {
-			set_technology = {
-				fighter3 = 1
+			hidden_effect={
+				set_technology = {
+					fighter3 = 1
+				}
 			}
+			
 			air_experience = 150
+			custom_effect_tooltip="Add technology: YFighter III!."
 		}
 	}
 	focus = {
@@ -1714,19 +1728,23 @@ focus_tree = {
 			RAJ = {
 				add_timed_idea = {
 					idea = RAJ_famine
-					days = 90
+					days = 30
+				}
+				add_timed_idea = {
+					idea = RAJ_ToraTora
+					days = 30
 				}
 			}
 			JAP = {
 				add_timed_idea = {
 					idea = JAP_banzai
-					days = 180
+					days = 30
 				}
 			}
 			MAN = {
 				add_timed_idea = {
 					idea = JAP_banzai
-					days = 180
+					days = 30
 				}
 				add_ideas = closed_economy
 			}

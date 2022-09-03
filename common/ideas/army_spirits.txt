@@ -88,7 +88,6 @@ ideas = {
 			ledger = army
 			visible = { has_tech = superior_firepower }
 			modifier = {
-				army_infantry_attack_factor = 0.05
 				army_artillery_attack_factor = 0.05
 			}
 			cost = 50.0
@@ -246,8 +245,7 @@ ideas = {
 		static_warfare_spirit = {
 			ledger = army
 			modifier = {
-
-				max_dig_in_factor = 0.03
+				max_dig_in_factor = 0.04
 				dig_in_speed_factor = 0.1
 			}
 			cost = 50.0

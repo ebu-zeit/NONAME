@@ -1,0 +1,14 @@
+state={
+	id=838
+	name="STATE_838"
+	provinces={
+		221 3463 11406 11446 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=1
+	buildings_max_level_factor=0
+	local_supplies=0.000
+}

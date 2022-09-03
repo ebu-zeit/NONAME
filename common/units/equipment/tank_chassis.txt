@@ -126,6 +126,10 @@ equipments = {
 			module = additional_machine_guns
 			count < 2
 		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_light_one_man_tank_turret
@@ -331,6 +335,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers
 			count < 2
 		}
 		default_modules = {
@@ -557,6 +565,10 @@ equipments = {
 			module = additional_machine_guns
 			count < 2
 		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_heavy_two_man_tank_turret
@@ -766,6 +778,10 @@ equipments = {
 			module = additional_machine_guns
 			count < 2
 		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_modern_tank_turret
@@ -929,6 +945,10 @@ equipments = {
 			module = additional_machine_guns
 			count < 2
 		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_super_heavy_three_man_tank_turret
@@ -1078,6 +1098,10 @@ equipments = {
 		module_count_limit = {
 			module = stabilizer
 			count < 3
+		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
 		}
 		default_modules = {
 			main_armament_slot = empty

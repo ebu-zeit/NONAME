@@ -18,7 +18,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_acquire_tanks
 			modifier = {
-				production_speed_rail_way_factor=0.4
+				production_speed_rail_way_factor=0.3
 			}
 		}
 		GER_barb_line={

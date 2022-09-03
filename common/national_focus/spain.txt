@@ -604,7 +604,6 @@ focus_tree = {
 	}
 
 	focus = { 
-		ai_will_do = { factor = 1 }
 		id = SPA_expand_the_special_forces
 		prerequisite = { focus = SPA_equipment_modernization }
 		
@@ -621,13 +620,7 @@ focus_tree = {
 				name = SPA_expand_the_special_forces
 				bonus = 1.0
 				uses = 1
-				category = marine_tech
-			}
-			add_tech_bonus = {
-				name = SPA_expand_the_special_forces
-				bonus = 1.0
-				uses = 1
-				category = mountaineers_tech
+				category = special_forces
 			}
 		}
 	}
@@ -669,9 +662,15 @@ focus_tree = {
 		id = SPA_national_recovery
 		available = {
 			date > 1939.4.1 
+			ROOT= {NOT={OR={
+				has_idea=SPA_recovering_from_civil_war
+				has_idea=SPA_recovering_from_civil_war_2
+				has_idea=SPA_recovering_from_civil_war_3
+
+			}
+			}}
 		}
-		bypass = {
-		}
+	
 		#prerequisite = {  focus = SPA_fuse_the_parties }
 		
 		icon = GFX_goal_generic_consumer_goods
@@ -1099,11 +1098,6 @@ focus_tree = {
 		focus = { 
 		ai_will_do = { factor = 1 }
 		id = SPA_the_corpo_truppe_volontarie
-		available = {
-			
-		}
-		bypass = {
-		}
 		prerequisite = { focus = SPA_unify_the_nationalist_front }
 		
 		icon = GFX_focus_befriend_italy
@@ -1117,14 +1111,14 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPA_the_corpo_truppe_volontarie
-				bonus = 1.0
-				uses = 1
+				bonus = 0.5
+				uses = 2
 				category = infantry_weapons
 			}
 			add_tech_bonus = {
 				name = SPA_the_corpo_truppe_volontarie
-				bonus = 1.0
-				uses = 1
+				bonus = 0.5
+				uses = 2
 				category = artillery
 			}
 		}

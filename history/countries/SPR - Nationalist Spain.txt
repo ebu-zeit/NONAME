@@ -30,7 +30,7 @@ add_ideas={
 }
 add_timed_idea={
 	idea=SPA_recovering_from_civil_war
-	days=120
+	days=320
 }
 set_technology = {
 	basic_train = 1
