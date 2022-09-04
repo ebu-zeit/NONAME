@@ -439,8 +439,11 @@ focus_tree = {
 			add_ideas = USA_lend_lease_act_na
 			ENG = {
 				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 20000 producer = USA }
-				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 300 producer = USA }
-				add_equipment_to_stockpile = { type = support_equipment_1 amount = 300 producer = USA }
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 15000 producer = USA }	
+				add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 10000 producer = USA }				
+				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1000 producer = USA }
+				add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 600 producer = USA }				
+				add_equipment_to_stockpile = { type = support_equipment_1 amount = 1000 producer = USA }
 			}
 		}
 	}
