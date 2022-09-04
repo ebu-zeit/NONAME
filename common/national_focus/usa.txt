@@ -49,7 +49,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		completion_reward = {
+		completion_reward = {		
 			add_political_power = 150
 		}
 	}
@@ -84,6 +84,10 @@ focus_tree = {
 			FOCUS_FILTER_USA_CONGRESS
 		}
 		completion_reward = {
+	        add_offsite_building = {
+				type = industrial_complex
+				level = 5
+			}		
 			USA_great_depression_level_down = yes
 			set_country_flag = {
 				flag = USA_great_depression_cooldown
@@ -135,6 +139,10 @@ focus_tree = {
 			FOCUS_FILTER_USA_CONGRESS
 		}
 		completion_reward = {
+	        add_offsite_building = {
+				type = industrial_complex
+				level = 5
+			}		
 			USA_great_depression_level_down = yes
 			set_country_flag = {
 				flag = USA_great_depression_cooldown
@@ -175,6 +183,10 @@ focus_tree = {
 			FOCUS_FILTER_USA_CONGRESS
 		}
 		completion_reward = {
+	        add_offsite_building = {
+				type = industrial_complex
+				level = 5
+			}		
 			USA_great_depression_level_down = yes
 			USA_congress_medium_opposition = yes
 			custom_effect_tooltip = federal_housing_tt
@@ -624,7 +636,7 @@ focus_tree = {
 		}
 		available = {
 			OR={
-			date > 1939.5.1 has_war=yes
+			date > 1939.2.1 has_war=yes
 			}
 		}
 		continue_if_invalid = yes
@@ -634,6 +646,10 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		completion_reward = {
+	        add_offsite_building = {
+				type = arms_factory
+				level = 20
+			}		
 			if = {
 				limit = {
 					OR = {
@@ -654,7 +670,7 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_the_giant_wakes
 		}
-		x = 0
+		x = -1
 		y = 2
 		relative_position_id = USA_the_giant_wakes
 		cost = 10
@@ -1844,29 +1860,34 @@ focus_tree = {
 	focus = {
 		id = USA_maritime_commission
 		icon = GFX_goal_generic_production2
-		x = -3
-		y = 1
+		x = 1
+		y = 2
 		prerequisite = {
-			focus = USA_two_ocean_navy_act
+			focus = USA_the_giant_wakes
 		}
 		available={
-			date > 1939.4.1
+			date > 1940.4.1
 		}
-		relative_position_id = USA_two_ocean_navy_act
+		relative_position_id = USA_the_giant_wakes
 		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			add_ideas ={ USA_dockyard 
-			}
+			add_ideas ={ USA_dockyard}
+			ENG ={add_ideas ={ USA_dockyard}}
+			CAN ={add_ideas ={ USA_dockyard}}
+			AST ={add_ideas ={ USA_dockyard}}
+			RAJ ={add_ideas ={ USA_dockyard}}
+			SAF ={add_ideas ={ USA_dockyard}}
+			FRA ={add_ideas ={ USA_dockyard}}
 		}
 	}
 	focus = {
 		id = USA_liberty_ships
 		icon = GFX_goal_generic_amphibious_assault
 		prerequisite = {
-			focus = USA_maritime_commission
+			focus = USA_two_ocean_navy_act
 		}
 		x = -3
 		y = 2
