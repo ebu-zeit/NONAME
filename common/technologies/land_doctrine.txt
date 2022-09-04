@@ -31,32 +31,75 @@ technologies = {
 			cat_mobile_warfare
 		}
 	}
-	armored_spearhead = {
-		#Branch focused on Tanks 
+	armored_spearhead = { #Branch focused on Tanks 
 		category_all_armor = {
 			max_organisation = 2
-			breakthrough = 0.2
-		}
-		enable_tactic = tactic_delay
-		path = {
-			leads_to_tech = elastic_defence
+			breakthrough = 0.20
+		}	
+
+
 			
+		enable_tactic = tactic_delay
+
+		path = {
+			leads_to_tech = elastic_defence 
+			research_cost_coeff = 1
 		}
-		doctrine = yes
+
+		
+		doctrine = yes	
 		xp_research_type = army
 		xp_unlock_cost = 100
+		
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
 		}
-		
+
 		folder = {
 			name = land_doctrine_folder
-			position = {
-				x = 0
-				y = 2
-			}
+			position = { x = 0 y = 2 }
 		}
+	
+	}
+	armored_spearhead_tech = {
+			support_light_sp_artillery = {   need = {light_tank_artillery_equipment= -12 }   }
+			support_medium_sp_artillery = {   need = {medium_tank_artillery_equipment= -5 }   }
+			support_heavy_sp_artillery = {   need = {heavy_tank_artillery_equipment= -5 }   }
+			support_light_tank_destroyer = {   need = {light_tank_destroyer_equipment= -15 }   }
+			support_medium_tank_destroyer = {   need = {medium_tank_destroyer_equipment= -6 }   }
+			support_heavy_tank_destroyer = {   need = {heavy_tank_destroyer_equipment= -6 }   }
+
+			support_light_sp_anti_air = {	need = {light_tank_aa_equipment = -12 }}
+			support_medium_sp_anti_air = {	need = {medium_tank_aa_equipment = -5 }}
+			support_heavy_sp_anti_air = {	need = { heavy_tank_aa_equipment = -5 }}
+
+			motorized_rocket_sup = {	need = {motorized_rocket_equipment = -4 }}
+
+			light_tank_recon= {	need = {light_tank_equipment = -12 }}
+			armored_car_recon = {	need = {armored_car_equipment = -12 }}
+
+			signal_company = { need = {support_equipment = -10 motorized_equipment = -5 } }
+	}
+	armored_spearhead_tech_removal = {
+			support_light_sp_artillery = {   need = {light_tank_artillery_equipment= 12 }   }
+			support_medium_sp_artillery = {   need = {medium_tank_artillery_equipment= 5 }   }
+			support_heavy_sp_artillery = {   need = {heavy_tank_artillery_equipment= 5 }   }
+
+			support_light_tank_destroyer = {   need = {light_tank_destroyer_equipment= 15 }   }
+			support_medium_tank_destroyer = {   need = {medium_tank_destroyer_equipment= 6 }   }
+			support_heavy_tank_destroyer = {   need = {heavy_tank_destroyer_equipment= 6 }   }
+
+
+			support_light_sp_anti_air = {	need = {light_tank_aa_equipment = 12}}
+			support_medium_sp_anti_air = {	need = {medium_tank_aa_equipment = 5 }}
+			support_heavy_sp_anti_air = {	need = { heavy_tank_aa_equipment = 5}}
+
+			motorized_rocket_sup = {	need = {motorized_rocket_equipment = 4 }}
+
+			light_tank_recon= {	need = {light_tank_equipment = 12 }}
+			armored_car_recon = {	need = {armored_car_equipment = 12 }}
+			signal_company = { need = {support_equipment = 10 motorized_equipment = 5  } }
 	}
 
 	elastic_defence = {
@@ -90,6 +133,28 @@ technologies = {
 		}
 	}
 	mobile_infantry = {
+		#Branch focuses on infantry, included Motorised and Mechanised.
+		motorized = {
+			maximum_speed = 0.05
+		}
+		mot_recon = {
+			maximum_speed = 0.05
+		}
+		mot_artillery_brigade = {
+			maximum_speed = 0.05
+		}
+		mot_anti_tank_brigade = {
+			maximum_speed = 0.05
+		}
+		mot_anti_air_brigade = {
+			maximum_speed = 0.05
+		}
+		mechanized = {
+			maximum_speed = 0.05
+		}
+		amphibious_mechanized = {
+			maximum_speed = 0.05
+		}
 		category_light_infantry = {
 			defense = 0.1
 			maximum_speed = 0.5
@@ -1259,7 +1324,7 @@ technologies = {
 			
 		}
 		category_armor_support_battalions = {
-			breakthrough = 0.5
+			breakthrough = 0.25
 		}
 		category_line_artillery = {
 			default_morale = 0.2
@@ -1403,10 +1468,10 @@ technologies = {
 	}
 	breakthrough_priority = {
 		category_army = {
-			breakthrough = 0.2
+			breakthrough = 0.15
 		}
 		category_all_infantry = {
-			max_organisation = 15
+			max_organisation = 12
 		}
 		enable_tactic = tactic_breakthrough
 		path = {

@@ -51,13 +51,13 @@ sub_units = {
 			light_tank_flame_chassis = 26
 		}
 		forest = {
-			attack = 0.05
+			attack = 0.075
 		}
 		jungle = {
 			attack = 0.05
 		}
 		urban = {
-			attack = 0.075
+			attack = 0.1
 		}
 		fort = {
 			attack = 0.15
@@ -124,7 +124,7 @@ sub_units = {
 			attack = 0.05
 		}
 		urban = {
-			attack = 0.075
+			attack = 0.1
 		}
 		fort = {
 			attack = 0.15
@@ -193,7 +193,7 @@ sub_units = {
 			attack = 0.05
 		}
 		urban = {
-			attack = 0.075
+			attack = 0.1
 		}
 		fort = {
 			attack = 0.15

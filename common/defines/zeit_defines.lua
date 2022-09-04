@@ -15,14 +15,14 @@ NDefines.NProduction.CONVERSION_SPEED_BONUS = -2.2 -- ADDED TO COUNTER CHEATERS 
 NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 2.2 -- vanilla 2.5
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4.5 -- vanilla 4.75
 -----------------------------IMPORTANT LAND COMBAT DEFINES--------------------------------------
-NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.7    -- vanilla 0.68  | 10% more equipment losses than vanilla  % of equipment lost to strength ratio in combat, so some % is returned if below 1
+NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.72    -- vanilla 0.68  | 10% more equipment losses than vanilla  % of equipment lost to strength ratio in combat, so some % is returned if below 1
 
 NDefines.NMilitary.PLANNING_MAX = 0.08 -- Vanilla is 0.30 ; nerfed along with entrenchment so both build up faster resulting in more dynamic gameplay with opportunities for faster recovery
 NDefines.NMilitary.UNIT_DIGIN_CAP = 0                           --   vanilla 10 | "how "deep" you can dig you can dig in until hitting max bonus
 
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.2                         -- vanilla 0.25 |  CAS bonus factor for air support modifier for land unit in combat
-NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.02  -- vanilla 0.04 | 75% of vanilla CAS ORG damage 
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER 	= 0.01 	--air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.01  -- vanilla 0.04 | 75% of vanilla CAS ORG damage 
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER 	= 0.015 	--air global damage modifier
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT =	-0.05 	--effect on speed due to enemy air superiority
 NDefines.NAir.FUEL_COST_MULT = 0.05 -- (0.35) fuel multiplier for all air missions 
 
@@ -80,7 +80,7 @@ NDefines.NMilitary.ARMY_FUEL_COST_MULT = 0.55 -- (0.50) fuel cost multiplier for
 NDefines.NMilitary.OUT_OF_FUEL_SPEED_MULT = 0.3 -- speed mult that armies get when out of fuel
 NDefines.NMilitary.COMBAT_VALUE_ORG_IMPORTANCE = 0 		-- VANILLA 1 - changed to force tanks into battle first (most of the time) |   Multiplier on TotalOrganisation when determining the combat value of a division
 NDefines.NMilitary.COMBAT_VALUE_STR_IMPORTANCE = 0 		-- VANILLA 1  - changed to force tanks into battle first (most of the time)    |  Multiplier on TotalStrength when determining the combat value of a division
-NDefines.NMilitary.REINFORCE_CHANCE = 0.05 --vanilla 0.02
+NDefines.NMilitary.REINFORCE_CHANCE = 0.04 --vanilla 0.02
 NDefines.NMilitary.NAVAL_INVASION_PLANNING_BONUS_MALUS = -0.5 --vanilla -1	-- Malus in percentage for the planning bonus gain for naval invasions
 NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.5                 -- percentage of experienced solders who die when manpower is removed
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0005
@@ -90,14 +90,14 @@ NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 0.5  -- WAS 3, r
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.08       -- WAS 0.25 
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.35            -- vanilla is 0.2, GDU-like change (0.25 in GDU)
 NDefines.NMilitary.ARMOR_VS_AVERAGE = 0	    --vanilla 0.4  | eventually armor will be reworked when paradox finally releases their armor rework
-NDefines.NMilitary.PEN_VS_AVERAGE = 0		--vanilla 0.4
+NDefines.NMilitary.PEN_VS_AVERAGE = 0.05		--vanilla 0.4
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.04
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.04
 
 NDefines.NMilitary.COMBAT_SUPPLY_LACK_ATTACKER_DEFEND = -0.5    -- vanilla -0.7 | defend combat penalty for attacker if out of supply
 NDefines.NMilitary.COMBAT_SUPPLY_LACK_ATTACKER_ATTACK = -0.15    -- vanilla -0.20 |  attack combat penalty for attacker if out of supply
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.5 -- damage reduction if armor outclassing enemy, will look at increasing if AT is too deadly to org. 
-NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 0.8 -- damage reduction if armor outclassing enemy
+NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 0.75 -- damage reduction if armor outclassing enemy
 NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.20                   -- speed bonus when retreating vanilla 0.25
 NDefines.NMilitary.WITHDRAWING_SPEED_FACTOR = 0.10                -- speed bonus when withdrawing vanilla 0.15
 
