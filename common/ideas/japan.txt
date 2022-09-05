@@ -128,8 +128,8 @@ ideas = {
 				global_building_slots_factor = 0.4
 				army_morale_factor = 0.1
 				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
-				production_speed_buildings_factor = 0.1
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.10
 				research_speed_factor = 0.1
 			}
 		}
@@ -319,7 +319,7 @@ ideas = {
 			picture = jap_zaibatsu_control
 			modifier = {
 				production_speed_industrial_complex_factor = 0.1
-				production_speed_dockyard_factor = 0.1
+				production_speed_dockyard_factor = 0.15
 				industrial_capacity_dockyard = 0.05
 				consumer_goods_factor = 0.05
 			}

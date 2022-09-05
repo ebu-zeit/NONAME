@@ -2,11 +2,10 @@ state={
 	id=716
 	name="STATE_716"
 	resources={
-		steel=27.000
 	}
 
 	history={
-		owner = MAN
+		owner = JAP
 		add_core_of = CHI
 		add_core_of = MAN
 		add_core_of = PRC

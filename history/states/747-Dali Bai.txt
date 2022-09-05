@@ -9,7 +9,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
-		owner = CHI
+		owner = EMP
 		victory_points = {
 			7965 3 
 		}

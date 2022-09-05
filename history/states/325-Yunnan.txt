@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = CHI
+		owner = EMP
 		victory_points = {
 			1319 10 
 		}
