@@ -913,14 +913,15 @@
 		y = 1
 		relative_position_id = naval_rearmament_focus
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
 		available_if_capitulated = yes
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
+
 		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 			add_tech_bonus = {
 				name = uk_amphibious_focus
 				bonus = 1
