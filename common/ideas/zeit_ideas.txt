@@ -1292,6 +1292,19 @@ ideas = {
 				training_time_factor = 1000
 			}
 		}
+		trade_blocked_jap = {
+			cancel = {
+				has_war=yes
+			}
+			allowed = {
+				always = no				#added on on_actions 
+			}
+			removal_cost = -1
+			picture = GER_Christian_Trade_Unions
+			modifier = {
+				local_resources_factor = 10
+			}
+		}
 		trade_blocked = {
 			cancel = {
 				has_war=yes

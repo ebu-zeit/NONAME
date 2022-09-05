@@ -1,7 +1,7 @@
-NDefines.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.7 -- Vanilla 0.6
-NDefines.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.75 -- Vanilla 0.8
+NDefines.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.6 -- Vanilla 0.6
+NDefines.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.7 -- Vanilla 0.8
 
-NDefines.NInterface.MINIMAP_PING_DELAY_BETWEEN_PINGS = 0.5 --vanilla 0.30 -- delay between consecative pings
+NDefines.NInterface.MINIMAP_PING_DELAY_BETWEEN_PINGS = 0.7 --vanilla 0.30 -- delay between consecative pings
 
 NDefines_Graphics.NGraphics.COMMANDGROUP_PRESET_COLORS_HSV = {
 	0.0/360.0, 1.0, 1.0,	--red

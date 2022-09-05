@@ -63,10 +63,10 @@ set_technology = {
 	basic_depth_charges = 1
 	basic_secondary_battery = 1
 }
-add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 30000 producer = SOV }  
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 27000 producer = SOV }  
 add_equipment_to_stockpile = { type = support_equipment amount = 11000 producer = SOV } 
-add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 420000 producer = SOV } 
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 50000 producer = SOV } 
+add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 380000 producer = SOV } 
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 20000 producer = SOV } 
 add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 10000 producer = SOV } 
 add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 15000 producer = SOV } 
 add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 24000 producer = SOV }

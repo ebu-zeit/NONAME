@@ -18,7 +18,7 @@ NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4.5 -- vanilla 4.75
 NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.72    -- vanilla 0.68  | 10% more equipment losses than vanilla  % of equipment lost to strength ratio in combat, so some % is returned if below 1
 
 NDefines.NMilitary.PLANNING_MAX = 0.08 -- Vanilla is 0.30 ; nerfed along with entrenchment so both build up faster resulting in more dynamic gameplay with opportunities for faster recovery
-NDefines.NMilitary.UNIT_DIGIN_CAP = 0                           --   vanilla 10 | "how "deep" you can dig you can dig in until hitting max bonus
+NDefines.NMilitary.UNIT_DIGIN_CAP = 3                           --   vanilla 10 | "how "deep" you can dig you can dig in until hitting max bonus
 
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.2                         -- vanilla 0.25 |  CAS bonus factor for air support modifier for land unit in combat
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.01  -- vanilla 0.04 | 75% of vanilla CAS ORG damage 
@@ -32,7 +32,7 @@ NDefines.NAir.CAPACITY_PENALTY=0.869
 NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.5
 NDefines.NAir.AIR_WING_FLIGHT_SPEED_MULT = 0.2 --makes redeployement of fighters faster vanilla is 0.02 
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 2.1                          --vanilla 3
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.012			--0.11 prev			-- Vanilla 0,10
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.014			--0.11 prev			-- Vanilla 0,10
 NDefines.NAir.DISRUPTION_FACTOR = 4
 NDefines.NAir.ESCORT_FACTOR = 5  --2.5		
 NDefines.NAir.FIELD_EXPERIENCE_SCALE = 0.002 --0.001 in vanilla
@@ -88,7 +88,7 @@ NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.25                 -- vanilla -0.
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.30          -- vanilla -0.6 | large river crossing
 NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 0.5  -- WAS 3, reduced to 1 so less CAS is needed in battles
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.08       -- WAS 0.25 
-NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.35            -- vanilla is 0.2, GDU-like change (0.25 in GDU)
+NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.3            -- vanilla is 0.2, GDU-like change (0.25 in GDU)
 NDefines.NMilitary.ARMOR_VS_AVERAGE = 0	    --vanilla 0.4  | eventually armor will be reworked when paradox finally releases their armor rework
 NDefines.NMilitary.PEN_VS_AVERAGE = 0.05		--vanilla 0.4
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.04

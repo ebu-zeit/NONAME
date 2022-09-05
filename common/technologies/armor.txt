@@ -1,46 +1,6 @@
 technologies = {
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
-	armored_spearhead_tech = {
-		support_light_sp_artillery = {   need = {light_tank_artillery_equipment= -12 }   }
-		support_medium_sp_artillery = {   need = {medium_tank_artillery_equipment= -5 }   }
-		support_heavy_sp_artillery = {   need = {heavy_tank_artillery_equipment= -5 }   }
-#
-		support_light_tank_destroyer = {   need = {light_tank_destroyer_equipment= -15 }   }
-		support_medium_tank_destroyer = {   need = {medium_tank_destroyer_equipment= -6 }   }
-		support_heavy_tank_destroyer = {   need = {heavy_tank_destroyer_equipment= -6 }   }
 
-		support_light_sp_anti_air = {	need = {light_tank_aa_equipment = -12 }}
-		support_medium_sp_anti_air = {	need = {medium_tank_aa_equipment = -5 }}
-		support_heavy_sp_anti_air = {	need = { heavy_tank_aa_equipment = -5 }}
-
-		motorized_rocket_sup = {	need = {motorized_rocket_equipment = -4 }}
-
-		light_tank_recon= {	need = {light_tank_equipment = -12 }}
-		armored_car_recon = {	need = {armored_car_equipment = -12 }}
-
-		signal_company = { need = {support_equipment = -10 motorized_equipment = -5 } }
-}
-
-		armored_spearhead_tech_removal = {
-		support_light_sp_artillery = {   need = {light_tank_artillery_equipment= 12 }   }
-		support_medium_sp_artillery = {   need = {medium_tank_artillery_equipment= 5 }   }
-		support_heavy_sp_artillery = {   need = {heavy_tank_artillery_equipment= 5 }   }
-#
-		support_light_tank_destroyer = {   need = {light_tank_destroyer_equipment= 15 }   }
-		support_medium_tank_destroyer = {   need = {medium_tank_destroyer_equipment= 6 }   }
-		support_heavy_tank_destroyer = {   need = {heavy_tank_destroyer_equipment= 6 }   }
-
-
-		support_light_sp_anti_air = {	need = {light_tank_aa_equipment = 12}}
-		support_medium_sp_anti_air = {	need = {medium_tank_aa_equipment = 5 }}
-		support_heavy_sp_anti_air = {	need = { heavy_tank_aa_equipment = 5}}
-
-		motorized_rocket_sup = {	need = {motorized_rocket_equipment = 4 }}
-		
-		light_tank_recon= {	need = {light_tank_equipment = 12 }}
-		armored_car_recon = {	need = {armored_car_equipment = 12 }}
-		signal_company = { need = {support_equipment = 10 motorized_equipment = 5  } }
-}
 	gwtank = { #Leichttraktor
 
 		enable_equipments = {

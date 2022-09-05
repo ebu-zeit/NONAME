@@ -2198,9 +2198,8 @@
 			CAN = { add_ideas = mulberry_harbours_idea }
 			SAF = { add_ideas = mulberry_harbours_idea }
 			AST = { add_ideas = mulberry_harbours_idea }
-			NZL = { add_ideas = mulberry_harbours_idea }
 			RAJ = { add_ideas = mulberry_harbours_idea }
-			FRF = { add_ideas = mulberry_harbours_idea }
+			FRA = { add_ideas = mulberry_harbours_idea }
 		}
 	}
 

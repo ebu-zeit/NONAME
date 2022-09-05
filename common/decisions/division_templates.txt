@@ -7,44 +7,6 @@ debug={
 			visible = {always = yes}
 			fire_only_once = no
 	complete_effect={
-		division_template = {
-			name = "Med Tank Mot."
-			regiments = {
-				medium_armor = { x = 0 y = 0 }
-				medium_armor = { x = 0 y = 1 }
-				medium_armor = { x = 0 y = 2 }
-				medium_armor = { x = 0 y = 3 }
-				medium_armor = { x = 0 y = 4 }
-				medium_armor = { x = 1 y = 0 }
-				medium_armor = { x = 1 y = 1 }
-				medium_armor = { x = 1 y = 2 }
-				medium_armor = { x = 1 y = 3 }
-				medium_armor = { x = 1 y = 4 }
-
-				motorized = { x = 2 y = 0 }
-				motorized = { x = 2 y = 1 }
-				motorized = { x = 2 y = 2 }
-				motorized = { x = 2 y = 3 }
-
-				motorized = { x = 3 y = 0 }
-				motorized = { x = 3 y = 1 }
-				motorized = { x = 3 y = 2 }
-				motorized = { x = 3 y = 3 }
-
-				medium_armor = { x = 4 y = 0 }
-				medium_armor = { x = 4 y = 1 }
-					}
-			support = {
-				motorized_rocket_sup = { x = 0 y = 0 }
-				recon = { x = 0 y = 1 }
-				maintenance_company = { x = 0 y = 2 }
-				field_hospital = { x = 0 y = 3 }
-				support_medium_sp_anti_air = { x = 1 y = 0 }
-				logistics_company = {x = 1 y = 1}
-				support_medium_sp_artillery = {x = 1 y = 2}
-				light_flame_tank= {x = 1 y = 3}
-			}
-		}
 	}
 
 }

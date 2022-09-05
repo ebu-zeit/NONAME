@@ -224,7 +224,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1934
+		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -4 y = 2 }
@@ -326,11 +326,11 @@ technologies = {
 		
 
 		research_cost = 2
-		start_year = 1938
+		start_year = 1940
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = 5 }
+			position = { x = -1 y = @1940 }
 		}
 		categories = {
 			armor
@@ -615,7 +615,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1934
+		start_year = 1936
 
 		folder = {
 			name = nsb_armour_folder

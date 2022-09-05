@@ -6,31 +6,17 @@ state={
 	}
 	manpower=300000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
-	history={
-		owner = EMP
-		add_core_of = CHI
-		add_core_of = PRC
-		buildings = {
-			infrastructure = 1
+	state_category = wasteland
+	impassable = yes
 
-		}
-		victory_points = {
-			12141 3
-		}
-		victory_points = {
-			7294 1
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 1
+	history= {
+		owner = EMP
+		controller = EMP
+		buildings = {
 				infrastructure = 1
 
 			}
-
 		}
-
-	}
 
 	local_supplies=1.0 
 }

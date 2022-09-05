@@ -12,7 +12,7 @@ on_actions = {
 			every_country={
 				limit={original_tag=JAP}
 				add_timed_idea={
-					idea=trade_blocked
+					idea=trade_blocked_jap
 					days=1825
 				}
 			}

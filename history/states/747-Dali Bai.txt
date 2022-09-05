@@ -7,20 +7,17 @@ state={
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category = pastoral
-	history={
-		owner = EMP
-		victory_points = {
-			7965 3 
-		}
-		buildings = {
-			infrastructure = 2
-			air_base = 10
+	state_category = wasteland
+	impassable = yes
 
-				}
-		
+	history= {
+		owner = EMP
+		controller = EMP
+		buildings = {
+				infrastructure = 1
 
 			}
+		}
 
 		}
 
