@@ -364,13 +364,26 @@ ideas = {
 				production_speed_synthetic_refinery_factor = 0.1
 				min_export = -0.35
 				local_resources_factor = 0.1
-				consumer_goods_factor = -0.03
 				global_building_slots_factor = 0.35
 				production_speed_arms_factory_factor = 0.2
 				production_speed_industrial_complex_factor = 0.2
 				production_factory_efficiency_gain_factor = 0.05
 			}
 		}
+		b = {
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GER_Volksgemeinschaft
+			modifier = {
+				consumer_goods_factor = -0.03
+			}
+		}		
 		GER_autarky_idea_minor = {
 			allowed = {
 				original_tag = GER
