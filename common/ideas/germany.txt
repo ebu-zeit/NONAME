@@ -364,6 +364,7 @@ ideas = {
 				production_speed_synthetic_refinery_factor = 0.1
 				min_export = -0.35
 				local_resources_factor = 0.1
+				consumer_goods_factor = -0.03
 				global_building_slots_factor = 0.35
 				production_speed_arms_factory_factor = 0.2
 				production_speed_industrial_complex_factor = 0.2

@@ -360,10 +360,7 @@ focus_tree = {
 		cost = 0
 		available = {
 			OR={has_war_with = GER
-			date>1941.6.22
-			hidden_trigger={OR={
-			has_global_flag=fall_of_london_ger
-			has_global_flag=fall_of_london_ita}}}
+			date>1941.6.22}
 		}
 		cancel_if_invalid=no
 		completion_reward = {

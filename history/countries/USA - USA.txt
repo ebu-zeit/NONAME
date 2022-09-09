@@ -73,7 +73,7 @@ add_ideas = {
 	undisturbed_isolation
 	great_depression
 	disarmed_nation
-	export_focus
+	free_trade
 	home_of_the_free
 	USA_homeland_defense
 	USA_dont_invade_free_europe

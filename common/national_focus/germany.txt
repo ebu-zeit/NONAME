@@ -1364,7 +1364,7 @@
 			has_completed_focus = GER_rhineland
 		}
 		completion_reward = {
-			air_experience = 100
+			air_experience = 300
 			add_doctrine_cost_reduction = {
 				name = air_innovation
 				cost_reduction = 0.5
