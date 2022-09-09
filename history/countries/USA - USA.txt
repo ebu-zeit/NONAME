@@ -80,6 +80,7 @@ add_ideas = {
 	allied_trading_idea
 	asia_matters
 	economic_recovery
+	aaaaaaaaaaaaa
 }
 
 add_intel = {

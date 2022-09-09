@@ -7,7 +7,10 @@ state={
 	state_category = megalopolis
 	
 	resources={
-		steel=44 # was: 80
+		steel=270
+		chromium=150
+		aluminum=90
+		tungsten=160
 	}
 
 
@@ -15,8 +18,7 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 4 #was: 8
-			industrial_complex = 5
-			dockyard = 7
+			dockyard = 15
 			
 			6845 = {
 				naval_base = 8
