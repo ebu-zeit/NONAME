@@ -415,17 +415,17 @@ focus_tree = {
 	focus = {
 		id = USA_the_giant_wakes
 		icon = GFX_america_goal_american_industry
-		prerequisite = { focus = USA_lend_lease_act }
+		prerequisite = { focus = USA_scientist_haven }
 		available = {
+		    or = {
 			has_war = yes
-			or = {
 			ENG = { has_capitulated = yes }
 			}
 		}
 		continue_if_invalid = yes
 		x = 0
-		y = 2
-		relative_position_id = USA_lend_lease_act
+		y = 1
+		relative_position_id = USA_scientist_haven
 		cost = 0.2
 		ai_will_do = {
 			factor = 1
