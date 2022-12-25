@@ -1,7 +1,7 @@
 ------------GAME----------
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 480
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 20
-NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0 , 0.4, 0.30, 0.038, 0.0 } -- vanilla is 2/0.5/0.2/0.1/0; Speed 1 is functionally a host enforced pause (100 minutes per hour), speed 2 is slightly slower in case of some extreme issues requiring it (you will almost never use this), speed 3 is unchanged as game is balanced around vanilla speed 3, speed 4 is for faster macro without slowdown, speed 5 is vanilla
+NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0 , 0.3, 0.25, 0.038, 0.0 } -- vanilla is 2/0.5/0.2/0.1/0; Speed 1 is functionally a host enforced pause (100 minutes per hour), speed 2 is slightly slower in case of some extreme issues requiring it (you will almost never use this), speed 3 is unchanged as game is balanced around vanilla speed 3, speed 4 is for faster macro without slowdown, speed 5 is vanilla
 NDefines.NGame.MESSAGE_TIMEOUT_DAYS = 14					     	 -- WAS 60 	| less messages lying around at the top of your screen
 NDefines.NGame.MISSION_REMOVE_FROM_INTERFACE_DEFAULT = 3		-- Default days before a mission is removed from the interface after having failed or completed
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12				-- WAS 48 | drastically cuts down on save file sizes after WW2 starts and well into barbarossa
@@ -63,7 +63,7 @@ NDefines.NAir.MISSION_COMMAND_POWER_COSTS = {  -- command power cost per plane t
 		0.0, -- NAVAL_MINES_SWEEPING
 		0.0, -- MISSION_RECON
 	}
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.45          --Vanilla -0.35 
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.25          --Vanilla -0.35 
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 50 --see plot in mod/resources
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE = 0.3
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 400.0
@@ -98,7 +98,7 @@ NDefines.NMilitary.COMBAT_SUPPLY_LACK_ATTACKER_DEFEND = -0.5    -- vanilla -0.7 
 NDefines.NMilitary.COMBAT_SUPPLY_LACK_ATTACKER_ATTACK = -0.15    -- vanilla -0.20 |  attack combat penalty for attacker if out of supply
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.5 -- damage reduction if armor outclassing enemy, will look at increasing if AT is too deadly to org. 
 NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 0.75 -- damage reduction if armor outclassing enemy
-NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.32                   -- speed bonus when retreating vanilla 0.25
+NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.20                   -- speed bonus when retreating vanilla 0.25
 NDefines.NMilitary.WITHDRAWING_SPEED_FACTOR = 0.10                -- speed bonus when withdrawing vanilla 0.15
 
 NDefines.NMilitary.ZERO_ORG_MOVEMENT_MODIFIER = -0.2     -- speed impact at 0 org.
@@ -182,7 +182,7 @@ NDefines.NAir.NON_CORE_STRATEGIC_IMPACT = 0.1                             -- mul
 ---------------------------------------------------------------
 NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 0                     
 ---------------------------------------------------------------
-NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.0200                   -- basic speed control
+NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.0125                   -- basic speed control
 
 NDefines.NNavy.NAVAL_SPEED_MODIFIER = 0.05 --vanilla 0.1, controls onmap movement speed of navies, not in battle (?); affects naval invasions
 NDefines.NNavy.CARRIER_STACK_PENALTY = 2    -- The most efficient is 2 carriers in combat. 3+ brings the penalty to the amount of wings in battle.
