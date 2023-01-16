@@ -16,21 +16,8 @@ duplicate_archetypes = {
 		}
 		air_map_icon_frame = 2
 		interface_overview_category_index = 0
-		substitute = cv_small_plane_cas_airframe
 	}
-	cv_small_plane_cas_airframe = {
-		archetype = cv_small_plane_airframe
-		type = cas
-		ai_type = cv_cas
-		picture = archetype_CAS_equipment
-		variant_name = {
-			cv_small_plane_cas_airframe_1 = cv_CAS_equipment_1
-			cv_small_plane_cas_airframe_2 = cv_CAS_equipment_3
-			cv_small_plane_cas_airframe_3 = cv_CAS_equipment_2
-		}
-		air_map_icon_frame = 17
-		interface_overview_category_index = 0
-	}
+	
 
 	small_plane_naval_bomber_airframe = {
 		archetype = small_plane_airframe
@@ -43,22 +30,8 @@ duplicate_archetypes = {
 		}
 		air_map_icon_frame = 3
 		interface_overview_category_index = 2
-		substitute = cv_small_plane_naval_bomber_airframe
 	}
-	cv_small_plane_naval_bomber_airframe = {
-		archetype = cv_small_plane_airframe
-		type = naval_bomber
-		ai_type = cv_naval_bomber
-		picture = archetype_heavy_fighter_equipment
-		variant_name = {
-			cv_small_plane_naval_bomber_airframe_1 = cv_nav_bomber_equipment_1
-			cv_small_plane_naval_bomber_airframe_2 = cv_nav_bomber_equipment_2
-			cv_small_plane_naval_bomber_airframe_3 = cv_nav_bomber_equipment_3
-		}
-		air_map_icon_frame = 18
-		interface_overview_category_index = 2
-		default_carrier_composition_weight = 1
-	}
+	
 
 	small_plane_suicide_airframe = {
 		archetype = small_plane_airframe
@@ -69,18 +42,9 @@ duplicate_archetypes = {
 		}
 		air_map_icon_frame = 15
 		interface_overview_category_index = -1 # Do not include these in the intel or airforce overview.
-		substitute = cv_small_plane_suicide_airframe
 		forbid_mission_type = training
 	}
-	cv_small_plane_suicide_airframe = {
-		archetype = cv_small_plane_airframe
-		type = suicide
-		ai_type = cv_suicide
-		picture = archetype_rocket_interceptor_equipment
-		air_map_icon_frame = 19
-		interface_overview_category_index = -1 # Do not include these in the intel or airforce overview.
-		forbid_mission_type = training
-	}
+	
 
 	# medium_plane
 
@@ -391,152 +355,7 @@ equipments = {
 	#  #  # #      #    #  #  # #  #  #  #   #  # 
 	 ##    #       #   ###  ##  #  #  #  ### #  # 
 
-	# Early Carrier Fighter
-	cv_fighter_equipment_0 = {
-		year = 1933
-
-		archetype = cv_small_plane_airframe
-		carrier_capable = yes
-		priority = 30
-
-		allow_mission_type = {
-			air_superiority
-			interception
-			naval_patrol
-		}
-
-		air_range = 456
-		maximum_speed = 297 #CV planes have less speed than their land based counterparts 
-		air_agility = 45
-		air_attack = 9
-		air_defence = 8
-
-		build_cost_ic =	26.4 # cv_version costs 20% more of base archetype
-
-		upgrades = {
-			cv_plane_gun_upgrade
-			cv_plane_range_upgrade
-			plane_engine_upgrade
-			plane_reliability_upgrade
-		}
-
-		# Air vs Navy - low damage / high hit chance / easy to hurt
-		naval_strike_attack = 2
-		naval_strike_targetting = 10
-		surface_detection = 15 # For airwing of 100 planes (Destroyer I: 20 surface detection)
-		sub_detection = 3.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
-
-		#Space taken in convoy
-		resources = {
-			#oil = 1
-			aluminium = 2
-			rubber = 1
-		}
-
-		lend_lease_cost = 8
-		air_superiority = 1
-		reliability = 0.8
-		manpower = 20
-		fuel_consumption = 0.21
-	}
-
-	# Basic Carrier Fighter
-	cv_fighter_equipment_1 = {
-		year = 1936
-
-		archetype = cv_small_plane_airframe
-		parent = cv_fighter_equipment_0
-		carrier_capable = yes
-		priority = 30
-
-		air_range = 560
-		maximum_speed =	450
-		air_agility = 50
-		air_attack = 18
-		air_defence = 11
-
-		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
-		resources = {
-			#oil = 1
-			aluminium = 3
-			rubber = 1
-		}
-
-		naval_strike_attack = 3
-		naval_strike_targetting = 10
-		surface_detection = 18 # For airwing of 100 planes (Destroyer I: 20 surface detection)
-		sub_detection = 4 # For airwing of 100 planes (Destroyer I: 5 sub detection )
-		lend_lease_cost = 8
-		air_superiority = 1
-		reliability = 0.8
-		manpower = 20
-		fuel_consumption = 0.21
-	}
-
-	# Improved Carrier Fighter
-	cv_fighter_equipment_2 = {
-		year = 1940
-
-		archetype = cv_small_plane_airframe
-		parent = cv_fighter_equipment_1
-		carrier_capable = yes
-		priority = 30
-
-		air_range = 800
-		maximum_speed =	585
-		air_agility = 65
-		air_attack = 27
-		air_defence = 13
-
-		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
-		resources = {
-			#oil = 2
-			aluminium = 3
-			rubber = 1
-		}
-		naval_strike_attack = 6
-		naval_strike_targetting = 10
-		surface_detection = 22 # For airwing of 100 planes (Destroyer I: 20 surface detection)
-		sub_detection = 4.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
-		lend_lease_cost = 8
-		air_superiority = 1
-		reliability = 0.8
-		manpower = 20
-		fuel_consumption = 0.21
-	}
-
-	# Advanced Carrier Fighter
-	cv_fighter_equipment_3 = {
-		year = 1944
-
-		archetype = cv_small_plane_airframe
-		parent = cv_fighter_equipment_2
-		carrier_capable = yes
-		priority = 30
-
-		air_range = 960
-		maximum_speed =	648
-		air_agility = 80
-		air_attack = 32
-		air_defence = 15
-
-		build_cost_ic = 32.4 # cv_version costs 20% more of base archetype
-		resources = {
-			#oil = 2
-			aluminium = 3
-			rubber = 1
-		}
-
-		naval_strike_attack = 8
-		naval_strike_targetting = 10
-		surface_detection = 25 # For airwing of 100 planes (Destroyer I: 20 surface detection)
-		sub_detection = 5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
-		lend_lease_cost = 8
-		air_superiority = 1
-		reliability = 0.8
-		manpower = 20
-		fuel_consumption = 0.21
-	}
+		#cv plane boş iş
 
 	 ##   ##   ## 
 	#  # #  # #   
@@ -658,121 +477,6 @@ equipments = {
 	#     # #      #    ####  #  
 	#  #  # #      #  # #  #   # 
 	 ##    #        ##  #  # ##  
-
-	# Basic Carrier CAS
-	cv_CAS_equipment_1 = {
-		year = 1936
-
-		archetype = cv_small_plane_cas_airframe
-		carrier_capable = yes
-		priority = 50
-
-		allow_mission_type = {
-			cas
-			naval_bomber
-			port_strike
-			attack_logistics
-			naval_patrol
-		}
-
-		air_range = 400
-		maximum_speed =	351
-		air_agility = 35
-		air_attack = 6
-		air_defence = 14
-		air_ground_attack = 8
-		naval_strike_attack = 4
-		naval_strike_targetting = 10
-
-		upgrades = {
-			plane_cas_upgrade
-			cv_plane_range_upgrade
-			plane_engine_upgrade
-			plane_reliability_upgrade
-		}
-
-		build_cost_ic = 26.4 # cv_version costs 20% more of base archetype
-			resources = {
-			#oil = 1
-			aluminium = 2
-			rubber = 1
-		}
-
-		air_superiority = 1
-		reliability = 0.8
-		manpower = 20
-		fuel_consumption = 0.26
-
-		surface_detection = 10 # For airwing of 100 planes (Destroyer I: 20 surface detection)
-		sub_detection = 7.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
-	}
-
-	# Improved Carrier CAS
-	cv_CAS_equipment_2 = {
-		year = 1940
-
-		archetype = cv_small_plane_cas_airframe
-		parent = cv_CAS_equipment_1
-		carrier_capable = yes
-		priority = 50
-
-		air_range = 640
-		maximum_speed =	405
-		air_agility = 39
-		air_attack = 10
-		air_defence = 16
-		air_ground_attack = 13
-
-		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
-		resources = {
-			#oil = 1
-			aluminium = 3
-			rubber = 1
-		}
-
-		naval_strike_attack = 7
-		naval_strike_targetting = 10
-		surface_detection = 20 # For airwing of 100 planes (Destroyer I: 20 surface detection)
-		sub_detection = 10 # For airwing of 100 planes (Destroyer I: 5 sub detection )
-		air_superiority = 1
-		reliability = 0.8
-		manpower = 20
-		fuel_consumption = 0.26
-	}
-
-	# Advanced Carrier CAS
-	cv_CAS_equipment_3 = {
-		year = 1944
-
-		archetype = cv_small_plane_cas_airframe
-		parent = cv_CAS_equipment_2
-		carrier_capable = yes
-		priority = 50
-
-		air_range = 800
-		maximum_speed =	495
-		air_agility = 44
-		air_attack = 14
-		air_defence = 20
-		air_ground_attack = 18
-
-		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
-		resources = {
-			#oil = 2
-			aluminium = 3
-			rubber = 1
-		}
-
-		naval_strike_attack = 13
-		naval_strike_targetting = 10
-		surface_detection = 30 # For airwing of 100 planes (Destroyer I: 20 surface detection)
-		sub_detection = 15 # For airwing of 100 planes (Destroyer I: 5 sub detection )
-		air_superiority = 1
-		reliability = 0.8
-		manpower = 20
-		fuel_consumption = 0.26
-	}
-
 	#  #  ##  #   #  ##  #       ###   ##  #   # ###  ### ###  
 	## # #  # #   # #  # #       #  # #  # ## ## #  # #   #  # 
 	# ## ####  # #  #### #       ###  #  # # # # ###  ##  ###  
@@ -892,115 +596,6 @@ equipments = {
 	#     # #      # ## ####  # #  #### #       ###  #  # # # # ###  ##  ###  
 	#  #  # #      #  # #  #  # #  #  # #       #  # #  # #   # #  # #   #  # 
 	 ##    #       #  # #  #   #   #  # ###     ###   ##  #   # ###  ### #  # 
-
-	 # Basic Carrier nav_bomber
-	cv_nav_bomber_equipment_1 = {
-		year = 1936
-
-		archetype = cv_small_plane_naval_bomber_airframe
-		carrier_capable = yes
-		priority = 70
-
-		allow_mission_type = {
-			naval_bomber
-			port_strike
-			naval_mines_planting
-			naval_mines_sweeping
-			naval_patrol
-		}
-
-		air_range = 680
-		maximum_speed =	207
-		air_agility = 30
-		air_attack = 6
-		air_defence = 13
-
-		build_cost_ic = 31.2 # cv_version costs 20% more of base archetype
-
-		upgrades = {
-			cv_plane_naval_upgrade
-			cv_plane_range_upgrade
-			plane_engine_upgrade
-			plane_reliability_upgrade
-		}
-
-		# Air vs Navy - high damage / medium hit chance / easy to hurt
-		naval_strike_attack = 15
-		naval_strike_targetting = 7.5
-		surface_detection = 20 # For airwing of 100 planes (Destroyer I: 20 surface detection)
-		sub_detection = 10 # For airwing of 100 planes (Destroyer I: 5 sub detection )
-
-		resources = {
-			#oil = 1
-			aluminium = 2
-			rubber = 1
-		}
-
-		air_superiority = 1
-		reliability = 0.8
-		manpower = 20
-		fuel_consumption = 0.28
-	}
-
-	# Improved Carrier nav_bomber
-	cv_nav_bomber_equipment_2 = {
-		year = 1940
-
-		archetype = cv_small_plane_naval_bomber_airframe
-		parent = cv_nav_bomber_equipment_1
-		carrier_capable = yes
-		priority = 70
-
-		air_range = 744
-		maximum_speed =	270
-		air_agility = 35
-		air_attack = 10
-		air_defence = 15
-		naval_strike_attack = 20
-		naval_strike_targetting = 10
-		surface_detection = 25 # For airwing of 100 planes (Destroyer I: 20 surface detection)
-		sub_detection = 15 # For airwing of 100 planes (Destroyer I: 5 sub detection )
-		build_cost_ic = 33.2 # cv_version costs 20% more of base archetype
-		resources = {
-			#oil = 1
-			aluminium = 3
-			rubber = 1
-		}
-		air_superiority = 1
-		reliability = 0.8
-		manpower = 20
-		fuel_consumption = 0.28
-	}
-
-	# Advanced Carrier nav_bomber
-	cv_nav_bomber_equipment_3 = {
-		year = 1944
-
-		archetype = cv_small_plane_naval_bomber_airframe
-		parent = cv_nav_bomber_equipment_2
-		carrier_capable = yes
-		priority = 70
-
-		air_range = 880
-		maximum_speed =	360
-		air_agility = 40
-		air_attack = 14
-		air_defence = 17
-		naval_strike_attack = 25
-		naval_strike_targetting = 12.5
-		surface_detection = 35 # For airwing of 100 planes (Destroyer I: 20 surface detection)
-		sub_detection = 18 # For airwing of 100 planes (Destroyer I: 5 sub detection )
-		build_cost_ic = 35.2 # cv_version costs 20% more of base archetype
-		resources = {
-			#oil = 2
-			aluminium = 3
-			rubber = 1
-		}
-		air_superiority = 1
-		reliability = 0.8
-		manpower = 20
-		fuel_consumption = 0.28
-	}
 
 	###   ##   ##  # # ### ###     ### #  # ### ### ###   ##  ### ###  ###  ##  ###   ## 
 	#  # #  # #  # # # #    #       #  ## #  #  #   #  # #  # #   #  #  #  #  # #  # #   

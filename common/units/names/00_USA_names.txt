@@ -160,28 +160,7 @@
 		}	
 	}
 
-	cv_fighter_equipment = {
-		prefix = ""
-		generic = { "VF" "VMF" }
-		generic_pattern = AIR_WING_NAME_USA_CARRIER
-		unique = {
-		}	
-	}
-
-	cv_CAS_equipment = {
-		prefix = ""
-		generic = { "VB" "VMB" "VS" "VMS" "VMSB" "VSB" }
-		generic_pattern = AIR_WING_NAME_USA_CARRIER
-		unique = {
-		}	
-	}
-	cv_nav_bomber_equipment = {
-		prefix = ""
-		generic = { "VT" "VMTB" }
-		generic_pattern = AIR_WING_NAME_USA_CARRIER
-		unique = {
-		}	
-	}
+ 
 
 	tac_bomber_equipment = {
 		prefix = ""

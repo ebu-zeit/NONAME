@@ -557,8 +557,8 @@ send_equipment = {  equipment = support_equipment  amount = 1000000  target = SO
 send_equipment = {  equipment = rocket_artillery_equipment  amount = 1000000  target = SOV  }#5
 send_equipment = {  equipment = anti_air_equipment  amount = 1000000  target = SOV  } #6
 #####
-send_equipment = {  equipment = fighter_equipment  amount = 1000000  target = SOV  } #7 
-send_equipment = {  equipment = CAS_equipment  amount = 1000000  target = SOV  } #8
+send_equipment = {  equipment = small_plane_airframe  amount = 1000000  target = SOV  } #7 
+send_equipment = {  equipment = small_plane_cas_airframe  amount = 1000000  target = SOV  } #8
 send_equipment = {  equipment = mechanized_equipment  amount = 1000000  target = SOV  } #9
 send_equipment = {  equipment = medium_tank_chassis  amount = 1000000  target = SOV  } #10
 send_equipment = {  equipment = light_tank_chassis  amount = 1000000  target = SOV  } #11
@@ -684,7 +684,7 @@ HMP_guns_to_swe = {
 	   add_to_variable ={ var = SOV_barb_ll_token2 value = 5 }
 	   add_to_variable = {  var = SOV_FighterSent value = 120 }
 	   }
-	   send_equipment = {  equipment = fighter_equipment  amount = 120  target = EMP  } 
+	   send_equipment = {  equipment = small_plane_airframe  amount = 120  target = EMP  } 
 	   send_equipment = { equipment = convoy amount = 1 target = EMP }
    }
    
@@ -695,6 +695,6 @@ HMP_guns_to_swe = {
 	   add_to_variable = {  var = SOV_ll_this_month value = 5 } 
 	   add_to_variable = {  var = SOV_CasSent value = 120 }
 	   }
-	   send_equipment = {  equipment = CAS_equipment  amount = 120  target = EMP  }
+	   send_equipment = {  equipment = small_plane_cas_airframe  amount = 120  target = EMP  }
 	   send_equipment = { equipment = convoy amount = 1 target = EMP }
    }

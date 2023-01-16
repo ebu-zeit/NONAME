@@ -1333,13 +1333,6 @@
 		available_if_capitulated = yes
 		completion_reward = {
 			air_experience = 25
-			SOV = {
-				add_equipment_to_stockpile = {
-					type = fighter_equipment
-					amount = 150
-					producer = SOV
-				}
-			}
 		}
 	}
 }

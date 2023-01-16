@@ -1102,13 +1102,6 @@ ideas = {
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
 			}
-			traits = {
-			}
-		equipment_bonus = {
-			fighter_equipment = {
-				reliability = 0.1 air_agility = 0.10 maximum_speed = 0.10 
-			}
-		}
 		}
 		mig_design_bureau = {
 			allowed = {
@@ -1118,17 +1111,11 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			traits = {
-			}
+ 
 			cost = 100
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
 			}
-		equipment_bonus = {
-			CAS_equipment = {
-				air_ground_attack = 0.1 reliability = 0.1 
-			}
-		}
 		}
 		
 	}

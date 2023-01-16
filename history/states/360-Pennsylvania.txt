@@ -9,7 +9,7 @@ state={
 	resources={
 		steel=270
 		chromium=150
-		aluminum=90
+		aluminium=90
 		tungsten=160
 	}
 

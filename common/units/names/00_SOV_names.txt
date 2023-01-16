@@ -128,28 +128,7 @@ air_wing_names_template = AIR_WING_NAME_SOV_FALLBACK
 		}	
 	}
 
-	cv_fighter_equipment = {
-		prefix = ""
-		generic = { "OKIAP" }
-		generic_pattern = AIR_WING_NAME_SOV_CARRIER
-		unique = {
-		}	
-	}
-
-	cv_CAS_equipment = {
-		prefix = ""
-		generic = { "OKShAP" }
-		generic_pattern = AIR_WING_NAME_SOV_CARRIER
-		unique = {
-		}	
-	}
-	cv_nav_bomber_equipment = {
-		prefix = ""
-		generic = { "OKMTAP" }
-		generic_pattern = AIR_WING_NAME_SOV_CARRIER
-		unique = {
-		}	
-	}
+ 
 
 	tac_bomber_equipment = {
 		prefix = ""

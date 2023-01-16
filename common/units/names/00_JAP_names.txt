@@ -110,28 +110,7 @@
 	}
 	air_wing_names_template = AIR_WING_NAME_JAP_FALLBACK
 
-	cv_fighter_equipment = {
-		prefix = ""
-		generic = { "Kokutai" }
-		generic_pattern = AIR_WING_NAME_JAP_CARRIER
-		unique = {
-		}	
-	}
-
-	cv_CAS_equipment = {
-		prefix = ""
-		generic = { "Kokutai" }
-		generic_pattern = AIR_WING_NAME_JAP_CARRIER
-		unique = {
-		}	
-	}
-	cv_nav_bomber_equipment = {
-		prefix = ""
-		generic = { "Kokutai" }
-		generic_pattern = AIR_WING_NAME_JAP_CARRIER
-		unique = {
-		}	
-	}
+	 
 
 	suicide_craft_equipment = {
 		prefix = ""

@@ -10,8 +10,8 @@ HMP_soviet_lend_lease_system_ui = {
 		increase_ll_aa_click = {	 if = { limit = {  has_equipment = {  convoy > 1 anti_air_equipment > 1250 } SOV_ll_check_trigger = yes }  hidden_effect= { HMP_aa_to_swe = yes } }	   }
 		increase_ll_sup_click = {	 if = { limit = {  has_equipment = { convoy > 1 support_equipment > 1250 } SOV_ll_check_trigger = yes }  hidden_effect= { HMP_sup_to_swe = yes }  }	  }
 		
-		increase_ll_fighter_click = {	 if = { limit = {  has_equipment = { convoy > 1 fighter_equipment > 125 } SOV_ll_check_trigger = yes }  	 hidden_effect= { HMP_fighter_to_swe = yes }  } }
-		increase_ll_cas_click = {	 if = { limit = {  has_equipment = { convoy > 1 CAS_equipment > 250 } SOV_ll_check_trigger = yes }  hidden_effect= { HMP_cas_to_swe = yes }  }	  }
+		increase_ll_fighter_click = {	 if = { limit = {  has_equipment = { convoy > 1 small_plane_airframe > 130 } SOV_ll_check_trigger = yes }  	 hidden_effect= { HMP_fighter_to_swe = yes }  } }
+		increase_ll_cas_click = {	 if = { limit = {  has_equipment = { convoy > 1 small_plane_cas_airframe > 130 } SOV_ll_check_trigger = yes }  hidden_effect= { HMP_cas_to_swe = yes }  }	  }
 		increase_ll_mot_click = {	 if = { limit = {  has_equipment = { convoy > 1 motorized_equipment > 500 } SOV_ll_check_trigger = yes }  hidden_effect= { HMP_mot_to_swe = yes }   }	 }
 		increase_ll_mech_click = {	 if = { limit = {  has_equipment = { convoy > 1 mechanized_equipment > 500 } SOV_ll_check_trigger = yes }   hidden_effect= { HMP_mech_to_swe = yes } }	  }			
 		increase_ll_light_click = {	 if = { limit = {  has_equipment = { convoy > 1 light_tank_chassis > 300 } SOV_ll_check_trigger = yes } hidden_effect= { HMP_light_to_swe = yes }  }	   }			

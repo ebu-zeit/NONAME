@@ -117,28 +117,7 @@
 		}	
 	}
 
-	cv_fighter_equipment = {
-		prefix = ""
-		generic = { "Flotille" }
-		generic_pattern = AIR_WING_NAME_FRA_CARRIER
-		unique = {
-		}	
-	}
-
-	cv_CAS_equipment = {
-		prefix = ""
-		generic = { "Flotille" }
-		generic_pattern = AIR_WING_NAME_FRA_CARRIER
-		unique = {
-		}	
-	}
-	cv_nav_bomber_equipment = {
-		prefix = ""
-		generic = { "Flotille" }
-		generic_pattern = AIR_WING_NAME_FRA_CARRIER
-		unique = {
-		}	
-	}
+ 
 
 	tac_bomber_equipment = {
 		prefix = ""

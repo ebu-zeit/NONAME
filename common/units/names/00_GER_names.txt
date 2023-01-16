@@ -161,28 +161,7 @@
 		}	
 	}
 
-	cv_fighter_equipment = {
-		prefix = ""
-		generic = { "Träger-Jagdgruppe" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
-		unique = {
-		}	
-	}
-
-	cv_CAS_equipment = {
-		prefix = ""
-		generic = { "Träger-Stukagruppe" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
-		unique = {
-		}	
-	}
-	cv_nav_bomber_equipment = {
-		prefix = ""
-		generic = { "Torpedobombergruppe" }
-		generic_pattern = AIR_WING_NAME_GER_GENERIC
-		unique = {
-		}	
-	}
+ 
 
 	tac_bomber_equipment = {
 		prefix = ""
