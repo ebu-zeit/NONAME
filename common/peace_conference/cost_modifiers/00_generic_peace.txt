@@ -1,0 +1,20 @@
+# Scripted cost modifiers for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_action_modifiers = {
+
+    ### Take States
+
+    # Is Core of Taker, and taker is not Puppet of someone
+    generic_is_core = {
+        category = is_core
+        peace_action_type = take_states
+
+        enable = {
+            FROM.FROM.FROM = { is_core_of = ROOT.FROM }
+        }
+
+        cost_multiplier = 0.25 # Reduced by ~75%
+    }
+
+}

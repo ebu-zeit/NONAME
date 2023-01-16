@@ -2,7 +2,9 @@
 # Effects are fully scriptable here.
 # These names can NOT be removed or changes, as the code uses them....
 ###GDUBARB###
-
+war_support_during_war = { #Applied during war, scaled from 0-100% with war support, not split.
+	stability_factor = -0.25
+}
 soviet_hero_city = { # on Province
 	army_defence_factor = 0.35
 	dig_in_speed_factor = 1
