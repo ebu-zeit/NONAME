@@ -3,9 +3,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
 480;9431;sea;8621;-1;-1;-1;-1;;Netherlands outlier
+
 8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
 2729;2408;sea;6257;2949;1598;2962;1612;KIEL_CANAL;Kiel
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
+
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
 3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn
@@ -125,11 +127,17 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6062;6205;sea;3590;-1;-1;-1;-1;;West Scottish-Strait
 8435;6550;sea;7452;-1;-1;-1;-1;;Aegan Isle-Strait
 7304;4360;sea;8614;-1;-1;-1;-1;;New Foundland-Strait
+
+
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-2919;2943;;-1;-1;-1;-1;-1;HORMUZ_STRAIT;hormuz
+
+2800;2776;;-1;-1;-1;-1;-1;ADEN_STRAIT;Aden
+
+5838;5864;;-1;-1;-1;-1;-1;ADRIATIC_STRAIT;Adriatic_strait
+
 10825;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -175,26 +183,83 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
-611;3612;impassable;-1;-1;-1;-1;-1;;western alps
-11570;3612;impassable;-1;-1;-1;-1;-1;;western alps
-11570;9587;impassable;-1;-1;-1;-1;-1;;western alps
-6635;9587;impassable;-1;-1;-1;-1;-1;;western alps
-3641;11601;impassable;-1;-1;-1;-1;-1;;central alps
-3641;658;impassable;-1;-1;-1;-1;-1;;central alps
-6661;3662;impassable;-1;-1;-1;-1;-1;;eastern alps
-3662;11587;impassable;-1;-1;-1;-1;-1;;eastern alps
-11587;3660;impassable;-1;-1;-1;-1;-1;;eastern alps
-3660;6675;impassable;-1;-1;-1;-1;-1;;eastern alps
-6675;9633;impassable;-1;-1;-1;-1;-1;;eastern alps
-9633;9630;impassable;-1;-1;-1;-1;-1;;eastern alps
-9630;11618;impassable;-1;-1;-1;-1;-1;;eastern alps
-671;11634;impassable;-1;-1;-1;-1;-1;;austrian alps
-671;3675;impassable;-1;-1;-1;-1;-1;;austrian alps
-3675;668;impassable;-1;-1;-1;-1;-1;;austrian alps
-3674;3675;impassable;-1;-1;-1;-1;-1;;austrian alps
-3674;6691;impassable;-1;-1;-1;-1;-1;;austrian alps
-6691;6687;impassable;-1;-1;-1;-1;-1;;austrian alps
-6691;9650;impassable;-1;-1;-1;-1;-1;;austrian alps
-9650;3684;impassable;-1;-1;-1;-1;-1;;austrian alps
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
+
+##spain
+3761;6521;sea;;-1;-1;-1;-1;Berlin-Madrid;Berlin-Madrid
+6955;11666;sea;;-1;-1;-1;-1;Vienna-Madrid;Vienna-Madrid
+
+4135;7153;impassable;-1;-1;-1;-1;-1;; Spain Gibraltar
+4135;10094;impassable;-1;-1;-1;-1;-1;; Spain Gibraltar 
+10094;13228;impassable;-1;-1;-1;-1;-1;; Spain Gibraltar 
+1048;13228;impassable;-1;-1;-1;-1;-1;; Spain Gibraltar 
+
+9853;9824;impassable;-1;-1;-1;-1;-1;; Spain France
+9853;11779;impassable;-1;-1;-1;-1;-1;; Spain France
+11779;6915;impassable;-1;-1;-1;-1;-1;; Spain France
+6915;3898;impassable;-1;-1;-1;-1;-1;; Spain France
+3898;6931;impassable;-1;-1;-1;-1;-1;; Spain France
+3898;3915;impassable;-1;-1;-1;-1;-1;; Spain France
+3915;3899;impassable;-1;-1;-1;-1;-1;; Spain France
+9882;3899;impassable;-1;-1;-1;-1;-1;; Spain France
+9882;899;impassable;-1;-1;-1;-1;-1;; Spain France
+9882;915;impassable;-1;-1;-1;-1;-1;; Spain France
+9884;915;impassable;-1;-1;-1;-1;-1;; Spain France
+9884;11838;impassable;-1;-1;-1;-1;-1;; Spain France
+11697;11838;impassable;-1;-1;-1;-1;-1;; Spain France
+11697;3931;impassable;-1;-1;-1;-1;-1;; Spain France
+743;3931;impassable;-1;-1;-1;-1;-1;; Spain France
+743;3737;impassable;-1;-1;-1;-1;-1;; Spain France
+743;6756;impassable;-1;-1;-1;-1;-1;; Spain France
+
+10113;10013;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
+10113;1194;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
+12087;10013;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
+4199;10013;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
+4199;4097;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
+7215;4097;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
+12100;989;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
+12100;1111;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
+12100;4097;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
+
+#####RAJ
+
+
+4318;12789;impassable;-1;-1;-1;-1;-1;;raj
+4996;12789;impassable;-1;-1;-1;-1;-1;;raj
+4996;12898;impassable;-1;-1;-1;-1;-1;;raj
+4996;10863;impassable;-1;-1;-1;-1;-1;;raj
+10863;4425;impassable;-1;-1;-1;-1;-1;;raj
+10863;10920;impassable;-1;-1;-1;-1;-1;;raj
+10863;12363;impassable;-1;-1;-1;-1;-1;;raj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -1;-1;;-1;-1;-1;-1;-1;-1
