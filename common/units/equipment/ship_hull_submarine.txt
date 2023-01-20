@@ -123,7 +123,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_radar
-					ship_sub_snorkel
+					 
 				}
 			}
 			rear_1_custom_slot = front_1_custom_slot
@@ -166,7 +166,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_radar
-					ship_sub_snorkel
+					 
 				}
 			}
 			rear_1_custom_slot = front_1_custom_slot
@@ -212,6 +212,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_radar
 					ship_sub_snorkel
+					
 				}
 			}
 			rear_1_custom_slot = {

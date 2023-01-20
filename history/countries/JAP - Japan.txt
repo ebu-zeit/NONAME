@@ -55,15 +55,17 @@ set_technology = {
 	interwar_antitank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	early_fighter = 1
-	early_bomber = 1
-	scout_plane1 = 1
+ 
 	#air
-	fighter1 = 1
-	CAS1 = 1 
-	naval_bomber1 =1 
-	heavy_fighter1 = 1
-	tactical_bomber1 = 1
+	aa_cannon_1 = 1
+	aa_lmg = 1
+	engines_1 = 1
+ 	aircraft_construction = 1
+	iw_small_airframe = 1
+	iw_medium_airframe = 1
+	iw_large_airframe = 1
+	basic_medium_airframe = 1
+	basic_small_airframe = 1
 
 	tech_military_police = 1
 	tech_engineers = 1
@@ -99,7 +101,7 @@ set_technology = {
 	basic_heavy_battery = 1
 
 	basic_depth_charges = 1
-	
+	cruiser_submarines = 1
 	basic_cruiser_armor_scheme = 1
 	basic_heavy_armor_scheme = 1
 
@@ -242,8 +244,6 @@ if = {
 				front_1_custom_slot = ship_deck_space
 				mid_1_custom_slot = ship_deck_space
 				mid_2_custom_slot = ship_deck_space
-				mid_3_custom_slot = ship_deck_space
-				mid_4_custom_slot = ship_deck_space
 			}
 		}
 

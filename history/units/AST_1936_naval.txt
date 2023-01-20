@@ -7,10 +7,7 @@
 		task_force = {
 			name = "Australian Squadron"
 			location = 12406 # Sydney
-			ship = { name = "HMAS Canberra" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "CA1" } }	}
-			ship = { name = "HMAS Australia" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "CA1" } } }
-			ship = { name = "HMAS Sydney" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "CL2" } } }
-			ship = { name = "HMAS Adelaide" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "CL1" } } }
+ 
 			# Scrap Iron Flotilla
 			ship = { name = "HMAS Vampire" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "ASW DD1" } } }
 			ship = { name = "HMAS Vendetta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "ASW DD1" } } }
@@ -28,8 +25,7 @@
 		task_force = {				
 			name = "Kraljevska Mornarica"			
 			location = 12406 # Split
-			ship = { name = "KB Dalmacija" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "CL1" } } }
-			# Podmornica Divizija
+ 			# Podmornica Divizija
 			ship = { name = "KB Hrabri" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "SS2" } } }				
 			ship = { name = "KB Nebojsa" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "SS2" } } }				
 			ship = { name = "KB Smeli" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "SS2" } } }				
@@ -46,21 +42,11 @@
 		task_force = {				
 			name = "Koninklijke Vloot"			
 			location = 12406  # Amsterdam
-			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "CA1" } } }		
-			ship = { name = "HrMs Jacob van Heemskerck" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "CA1" } } }		
-			ship = { name = "HrMs Van Galen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "ASW DD1" } } }		
+  			ship = { name = "HrMs Van Galen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "ASW DD1" } } }		
 		}				
 		task_force = {				
 			name = "Koninklijke Onderzeeboot Smaldeel"			
 			location = 12406  # Amsterdam
-			ship = { name = "HrMs O-8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS3" } } }
-			ship = { ordered_name = 9 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS3" } } }
-			ship = { ordered_name = 10 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS3" } } }
-			ship = { ordered_name = 11 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS3" } } }
-			ship = { ordered_name = 12 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS3" } } }
-			ship = { ordered_name = 13 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS3" } } }
-			ship = { ordered_name = 14 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS3" } } }
-			ship = { ordered_name = 15 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS3" } } }
 		}				
 	}
 

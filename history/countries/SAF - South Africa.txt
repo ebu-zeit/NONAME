@@ -42,9 +42,7 @@ set_technology = {
 	interwar_antitank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	early_fighter = 1
-	early_bomber = 1
-	scout_plane1 = 1
+ 
 	tech_engineers = 1
 	tech_recon = 1
 	tech_maintenance_company = 1
@@ -64,43 +62,14 @@ set_technology = {
 	basic_battery = 1
 }
 
-add_equipment_to_stockpile = {
-	type = artillery_equipment_1
-	amount = 336
-	producer = SAF
-} 
-add_equipment_to_stockpile = {
-	type = anti_tank_equipment_1
-	amount = 500
-	producer = SAF
-} 
-add_equipment_to_stockpile = {
-	type = support_equipment
-	amount = 340
-	producer = SAF
-} 
+ 
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 5700
-	producer = SAF
-}  
-add_equipment_to_stockpile = {
-	type = motorized_equipment_1
 	amount = 500
 	producer = SAF
-} 
+}
 
-add_equipment_to_stockpile = {
-	type = anti_air_equipment_1
-	amount = 221
-	producer = SAF
-}
-add_equipment_to_stockpile = {
-	type = anti_tank_equipment_1
-	amount = 250
-	producer = SAF
-}
 
 
 recruit_character = SAF_j._b._m._hertzog

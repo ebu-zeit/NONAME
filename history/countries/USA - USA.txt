@@ -79,7 +79,6 @@ add_ideas = {
 	USA_dont_invade_free_europe
 	allied_trading_idea
 	asia_matters
-	economic_recovery
 	aaaaaaaaaaaaa
 }
 
@@ -154,15 +153,17 @@ set_technology = {
 	interwar_antitank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	early_fighter = 1
-	early_bomber = 1
-	scout_plane1 = 1
-	fighter1 = 1
-	CAS1 = 1 
-	naval_bomber1 =1 
-	heavy_fighter1 = 1
-	tactical_bomber1 = 1
-	strategic_bomber1 = 1
+	
+	iw_small_airframe = 1
+	basic_small_airframe = 1
+	iw_medium_airframe = 1
+	basic_medium_airframe = 1
+	engines_1 = 1
+	engines_2 = 1
+	aa_lmg = 1
+	early_bombs = 1
+	aircraft_construction = 1
+
 	tech_logistics_company = 1
 	tech_field_hospital = 1
 	tech_engineers = 1
@@ -482,7 +483,6 @@ create_equipment_variant = {
 		front_1_custom_slot = ship_deck_space
 		mid_1_custom_slot = ship_deck_space
 		mid_2_custom_slot = ship_deck_space
-		mid_3_custom_slot = ship_deck_space
-		mid_4_custom_slot = ship_deck_space
+ 
 	}
 }

@@ -48,8 +48,7 @@ set_technology = {
 	trench_warfare = 1
 	fleet_in_being = 1
 	gw_artillery = 1
-	CAS1 = 1
-	early_fighter = 1
+ 
 	fuel_silos = 1
 	synth_oil_experiments = 1
 
@@ -138,7 +137,7 @@ recruit_character = RAJ_sir_mohammed_iqbal
 
 add_equipment_to_stockpile = {
 	type = artillery_equipment_1
-	amount = 264
+	amount = 774
 	producer = RAJ
 }  
 add_equipment_to_stockpile = {
@@ -153,7 +152,7 @@ add_equipment_to_stockpile = {
 } 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 4000
+	amount = 2000
 	producer = RAJ
 }
 add_equipment_to_stockpile = {

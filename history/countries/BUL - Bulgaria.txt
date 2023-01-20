@@ -71,27 +71,14 @@ set_technology = {
 	basic_heavy_battery = 1
 }
 
-add_equipment_to_stockpile = {
-         type = artillery_equipment_1
-         amount = 505
-         producer = BUL
-}  
-add_equipment_to_stockpile = {
-         type = support_equipment
-         amount = 400
-         producer = BUL
-} 
+ 
 
 add_equipment_to_stockpile = {
          type = infantry_equipment_1
-         amount = 6000
+         amount = 1000
          producer = BUL
 } 
-add_equipment_to_stockpile = {
-	type = anti_air_equipment_1
-    amount = 240
-    producer = BUL
-}
+
 recruit_character = BUL_konstantin_lukash
 recruit_character = BUL_georgi_popov
 recruit_character = BUL_boris_iii

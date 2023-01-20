@@ -41,6 +41,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			fixed_ship_armor_slot = {
@@ -62,7 +63,8 @@ equipments = {
 					ship_airplane_launcher
 					ship_heavy_battery
 					ship_secondaries
-				}
+					ship_dp_secondaries
+ 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
@@ -72,7 +74,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_heavy_battery
 					ship_secondaries
-				}
+ 				}
 			}
 		}
 		module_count_limit = {
@@ -215,6 +217,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			fixed_ship_armor_slot = {
@@ -236,6 +239,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_heavy_battery
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			mid_2_custom_slot = {
@@ -302,6 +306,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_heavy_battery
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			mid_2_custom_slot = {
@@ -366,6 +371,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_heavy_battery
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			mid_2_custom_slot = {
@@ -438,6 +444,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_heavy_battery
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			mid_2_custom_slot = {
@@ -482,7 +489,6 @@ equipments = {
 		}
 		manpower = 6000
 	}
-
 	ship_hull_super_heavy_1 = {
 		abbreviation = "hcg"
 		year = 1940
@@ -501,6 +507,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					ship_anti_air
+					ship_dp_secondaries
 				}
 			}
 			fixed_ship_fire_control_system_slot = {
@@ -525,6 +532,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			fixed_ship_armor_slot = {
@@ -544,6 +552,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_secondaries
 					ship_torpedo
+					ship_dp_secondaries
 				}
 			}
 			mid_1_custom_slot = {
@@ -552,6 +561,7 @@ equipments = {
 					ship_super_heavy_battery
 					ship_airplane_launcher
 					ship_secondaries
+					ship_dp_secondaries
 					ship_torpedo
 				}
 			}
@@ -560,6 +570,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_airplane_launcher
 					ship_torpedo
+					ship_dp_secondaries
 				}
 			}
 			mid_3_custom_slot = {
@@ -567,6 +578,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_airplane_launcher
 					ship_torpedo
+					ship_dp_secondaries
 				}
 			}
 			rear_1_custom_slot = {
@@ -644,6 +656,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			fixed_ship_armor_slot = {
@@ -663,6 +676,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -855,6 +869,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_dp_secondaries
 				}
 			}
 			fixed_ship_fire_control_system_slot = {
@@ -879,6 +894,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			fixed_ship_armor_slot = {
@@ -898,6 +914,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -908,6 +925,7 @@ equipments = {
 					ship_secondaries
 					ship_super_heavy_battery
 					ship_airplane_launcher
+					ship_dp_secondaries
 				}
 			}
 			rear_2_custom_slot = {
@@ -916,6 +934,7 @@ equipments = {
 					ship_secondaries
 					ship_super_heavy_battery
 					ship_airplane_launcher
+					ship_dp_secondaries
 				}
 			}
 		}
@@ -973,6 +992,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_dp_secondaries
 				}
 			}
 			fixed_ship_fire_control_system_slot = {
@@ -997,6 +1017,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			fixed_ship_armor_slot = {
@@ -1010,6 +1031,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_super_heavy_battery
+					ship_dp_secondaries
 				}
 			}
 			front_2_custom_slot = front_1_custom_slot
@@ -1018,6 +1040,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_secondaries
+					ship_dp_secondaries
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -1029,6 +1052,7 @@ equipments = {
 					ship_secondaries
 					ship_super_heavy_battery
 					ship_airplane_launcher
+					ship_dp_secondaries
 				}
 			}
 			rear_2_custom_slot = {
@@ -1038,6 +1062,7 @@ equipments = {
 					ship_secondaries
 					ship_super_heavy_battery
 					ship_airplane_launcher
+					ship_dp_secondaries
 				}
 			}
 		}
@@ -1107,7 +1132,7 @@ equipments = {
 		surface_detection = 12
 		sub_detection = 5
 		surface_visibility = 20
-		naval_speed = 32
+		naval_speed = 30
 		reliability = 0.8
 		naval_range = 3000
 		max_strength = 375
@@ -1150,7 +1175,7 @@ equipments = {
 		surface_detection = 25
 		sub_detection = 5
 		surface_visibility = 20
-		naval_speed = 36
+		naval_speed = 34
 		reliability = 0.9
 		naval_range = 5000
 		max_strength = 425

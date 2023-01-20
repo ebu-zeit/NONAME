@@ -45,10 +45,12 @@ set_technology = {
 	interwar_antitank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	early_fighter = 1
-	early_bomber = 1
 
-	scout_plane1 = 1
+	aa_lmg = 1
+	aircraft_construction = 1
+	iw_small_airframe = 1
+	engines_1 = 1
+	early_bombs = 1
 
 	tech_engineers = 1
 	tech_recon = 1

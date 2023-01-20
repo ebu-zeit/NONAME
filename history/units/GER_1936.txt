@@ -108,33 +108,7 @@ units = {
 }
 
 ### Air oob
-air_wings = {
-	### II. Luftkreiskommando -- Berlin ###
-	64 = { 
-		# Kampfgeschwader 153		
-		tac_bomber_equipment_0 = {		# Do 23
-			owner = "GER" 
-			amount = 200
-			version_name = "Ju 86"
-		}
-		# TODO: REMOVE THIS LATER ???
-		transport_plane_equipment_1 = {
-			owner = "GER" 
-			amount = 100
-		}
-		# Sturzkampfgeschwader 162		
-		CAS_equipment_1 =  {			# Hs 123
-			owner = "GER" 
-			amount = 400
-		}
-		# Küstenfliegergruppe 106		
-		nav_bomber_equipment_1 =  {		# He 59, Do 18
-			owner = "GER" 
-			amount = 100
-		}
-		# Küstenfliegergruppe 206
-	}
-}
+ 
 
 #########################
 ## STARTING PRODUCTION ##
@@ -212,26 +186,7 @@ instant_effect = {
 		progress = 0.15
 		efficiency = 50
 	}
-
-	add_equipment_production = {
-		equipment = {
-			type = CAS_equipment_1
-			creator = "GER" 
-		}
-		requested_factories = 5
-		progress = 0.2
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = tac_bomber_equipment_1
-			creator = "GER" 
-		}
-		requested_factories = 5
-		progress = 0.1
-		efficiency = 50
-	}
+ 
 	add_equipment_production = {
 		equipment = {
 			type = transport_plane_equipment_1
@@ -241,16 +196,7 @@ instant_effect = {
 		progress = 0.15
 		efficiency = 50
 	}
-	add_equipment_production = {
-		equipment = {
-			type = fighter_equipment_1
-			creator = "GER" 
-			version_name = "Bf 109 E"
-		}
-		requested_factories = 20
-		progress = 0.15
-		efficiency = 50
-	}
+ 
 }
 
 #####################

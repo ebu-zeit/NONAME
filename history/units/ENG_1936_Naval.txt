@@ -11,17 +11,17 @@
 			#CV1
 			ship = { name = "HMS Furious" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "CV1" } } 
 				air_wings = {
-					nav_bomber_equipment_1 =  { owner = "ENG" amount = 60 }
+ 
 				}
 			}			
 			ship = { name = "HMS Courageous" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "CV1" } }
 				air_wings = {
-					nav_bomber_equipment_1 =  { owner = "ENG" amount = 60 }
+				 
 				}
 			}			
 			ship = { name = "HMS Glorious" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "CV1" } } 
 				air_wings = {
-					nav_bomber_equipment_1 =  { owner = "ENG" amount = 60 }
+					 
 				}
 			}
 
