@@ -294,7 +294,7 @@ sub_units = {
 		#Size Definitions
 		max_strength = 28
 		max_organisation = 60
-		default_morale = 0.30
+		default_morale = 0.25
 		manpower = 1200
 
 		#Misc Abilities
@@ -369,7 +369,7 @@ sub_units = {
 		#Size Definitions
 		max_strength = 31
 		max_organisation = 60
-		default_morale = 0.31
+		default_morale = 0.25
 		manpower = 1200
 
 		#Misc Abilities

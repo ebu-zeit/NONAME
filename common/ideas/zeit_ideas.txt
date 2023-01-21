@@ -1518,7 +1518,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 trait={
+			 traits={
 				light_aircraft_manufacturer
 			 }
 			modifier = {
@@ -1535,7 +1535,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 trait={
+			traits={
 				medium_aircraft_manufacturer
 			 }
 			modifier = {
@@ -1553,7 +1553,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 trait={
+			traits={
  				CAS_manufacturer
 			 }
 			modifier = {
@@ -1572,7 +1572,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			trait={
+			traits={
 				naval_aircraft_manufacturer
  			 }
 			modifier = {
@@ -1590,7 +1590,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 trait={
+			traits={
 				fuel_efficient_aircraft_manufacturer
 			 }
 			modifier = {
@@ -1608,7 +1608,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 trait={
+			traits={
 				heavy_aircraft_manufacturer
 			 }
 			modifier = {
@@ -1619,7 +1619,7 @@ ideas = {
 	#axis
 	tank_manufacturer = {
 		designer = yes
-		krupp_t = {
+		fiat = {
 			picture = idea_krupp
 			cost = 150
 			allowed = {

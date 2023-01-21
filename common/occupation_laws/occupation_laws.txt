@@ -4,8 +4,8 @@ foreign_civilian_oversight = {
 	default_law = yes
 	starting_law = yes
 	state_modifier = {
-		resistance_target 	= -1
-		compliance_gain 	= 0.13 
+		resistance_target 	= -2
+		compliance_gain 	= 0.25
 		required_garrison_factor = -1
 	}	
 }
