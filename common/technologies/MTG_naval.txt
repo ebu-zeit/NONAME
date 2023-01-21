@@ -593,8 +593,7 @@ technologies = {
 			leads_to_tech = basic_heavy_armor_scheme
 			research_cost_coeff = 1
 		}
-		XOR = {
-		}
+		
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.5
@@ -603,8 +602,8 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {
-				x = 0
-				y = 2
+				x = 1
+				y = 3
 			}
 		}
 		ai_will_do = {
@@ -646,7 +645,7 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {
-				x = 0
+				x = 1
 				y = 8
 			}
 		}
@@ -684,7 +683,7 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {
-				x = 0
+				x = 1
 				y = 14
 			}
 		}
@@ -733,7 +732,7 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {
-				x = -1
+				x = 0
 				y = 2
 			}
 		}
@@ -758,7 +757,7 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {
-				x = -1
+				x = 0
 				y = 7
 			}
 		}
@@ -783,7 +782,7 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {
-				x = -1
+				x = 0
 				y = 13
 			}
 		}
@@ -804,7 +803,7 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {
-				x = -1
+				x = 0
 				y = 19
 			}
 		}
@@ -835,7 +834,7 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {
-				x = -2
+				x = 0
 				y = 2
 			}
 		}
@@ -861,7 +860,7 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {
-				x = -2
+				x = 0
 				y = 7
 			}
 		}
@@ -887,7 +886,7 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {
-				x = -2
+				x = 0
 				y = 13
 			}
 		}

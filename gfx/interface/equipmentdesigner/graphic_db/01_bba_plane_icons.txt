@@ -64,7 +64,7 @@ SOV = {
 			}
 		}
 	}
-	 
+ 
 }
 
 USA = {
@@ -173,7 +173,7 @@ FRA = {
 			}
 		}
 	}
- 
+	 
 	medium_plane_airframe = {
 		pool = {
 			weight = 0.9
@@ -242,24 +242,30 @@ ITA = {
 				
 			}
 			models = {
- 				ITA_CAS_equipment_3_entity
+				ITA_cv_nav_bomber_equipment_3_entity
+				ITA_CAS_equipment_3_entity
 				ITA_nav_3_entity
 				ITA_fighter_equipment_3_entity
-	 
+				ITA_cv_fighter_equipment_3_entity
+				ITA_cv_CAS_equipment_3_entity
+				ITA_cv_fighter_equipment_2_entity
 				ITA_fighter_equipment_2_entity
 				ITA_nav_2_entity
-			 
+				ITA_cv_CAS_equipment_2_entity
+				ITA_cv_nav_bomber_equipment_2_entity
 				ITA_CAS_equipment_2_entity
-			 
+				ITA_cv_nav_bomber_equipment_1_entity
+				ITA_cv_fighter_equipment_1_entity
+				ITA_cv_CAS_equipment_1_entity
 				ITA_nav_1_entity
 				ITA_fighter_equipment_1_entity
 				ITA_CAS_equipment_1_entity
-			 
+				ITA_cv_fighter_equipment_0_entity
 				ITA_fighter_equipment_0_entity
 			}
 		}
 	}
- 
+	 
 	medium_plane_airframe = {
 		pool = {
 			icons = {

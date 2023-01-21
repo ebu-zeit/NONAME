@@ -214,6 +214,10 @@ spriteTypes = {
 		    name = "GFX_SPR_transport_plane_equipment_medium"
 		    texturefile = "gfx/interface/technologies/spr_transport_plane_equipment.dds"
 	    }
+		SpriteType = {
+		    name = "GFX_SPR_transport_plane_equipment_1_medium"
+		    texturefile = "gfx/interface/technologies/spr_transport_plane_equipment.dds"
+	    }
 	#)#	
 	
   #)#  

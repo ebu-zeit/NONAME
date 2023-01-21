@@ -40,6 +40,7 @@ set_technology = {
 	early_ship_hull_submarine = 1
 	early_ship_hull_cruiser = 1
 	early_ship_hull_heavy = 1
+	basic_ship_hull_cruiser = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	motorised_infantry = 1

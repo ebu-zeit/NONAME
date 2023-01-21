@@ -134,7 +134,7 @@ add_equipment_to_stockpile = {
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
-	amount = 175000
+	amount = 150000
 	producer = GER
 }
 

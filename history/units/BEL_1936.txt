@@ -1,12 +1,25 @@
-﻿### Starting Production ###
+﻿ 
+### OOB ###
+ 
+
+### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
 			creator = "BEL"
 		}
-		requested_factories = 100
-		progress = 0.00
-		efficiency = 0
+		requested_factories = 2
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
 	}
 }

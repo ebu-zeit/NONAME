@@ -14,5 +14,4 @@ units= {
 			ship = { name = "NMS Regina Maria" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Regele Ferdinand Class" } } }
 		}				
 	}
-} 
-
+}

@@ -903,7 +903,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 12
+				x = 14
 				y = @1936
 			}
 		}
@@ -946,7 +946,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 12
+				x = 14
 				y = @1939
 			}
 		}
@@ -989,7 +989,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 12
+				x = 14
 				y = @1942
 			}
 		}
@@ -1024,7 +1024,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 12
+				x = 14
 				y = @1945
 			}
 		}
@@ -1066,7 +1066,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 14
+				x = 12
 				y = @1936
 			}
 		}
@@ -1097,7 +1097,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 14
+				x = 12
 				y = @1939
 			}
 		}
@@ -1135,7 +1135,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 14
+				x = 12
 				y = @1942
 			}
 		}
@@ -1169,7 +1169,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 14
+				x = 12
 				y = @1945
 			}
 		}
@@ -1203,7 +1203,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 0
+				x = 2
 				y = @1918
 			}
 		}
@@ -1247,7 +1247,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 4
+				x = 6
 				y = 3
 			}
 		}
@@ -1265,7 +1265,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 0
+				x = 2
 				y = @1939
 			}
 		}
@@ -1286,7 +1286,7 @@ technologies = {
 		folder = {
 			name = support_folder
 			position = {
-				x = 2
+				x = 4
 				y = 3
 			}
 		}

@@ -94,7 +94,7 @@ spriteTypes = {
 
         SpriteType = {
             name = "GFX_GER_advanced_light_spaa_medium"
-            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_3/ger_flakpz_vk2801.dds" 
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_3/ger_flakpz_vk1602.dds" 
         }
 	#)#	    
 	 
@@ -478,6 +478,10 @@ spriteTypes = {
 	#(German transport plane#	
 	    SpriteType = {
 		    name = "GFX_GER_transport_plane_equipment_medium"
+		    texturefile = "gfx/interface/technologies/ger_transport_plane_equipment.dds"
+	    }
+		SpriteType = {
+		    name = "GFX_GER_transport_plane_equipment_1_medium"
 		    texturefile = "gfx/interface/technologies/ger_transport_plane_equipment.dds"
 	    }
 	#)#	    
@@ -1459,6 +1463,10 @@ spriteTypes = {
 		    name = "GFX_SOV_transport_plane_equipment_medium"
 		    texturefile = "gfx/interface/technologies/sov_transport_plane_equipment.dds"
 	    }
+		SpriteType = {
+		    name = "GFX_SOV_transport_plane_equipment_1_medium"
+		    texturefile = "gfx/interface/technologies/sov_transport_plane_equipment.dds"
+	    }
 	#)#	    
 
     #(Soviet scout plane#
@@ -1972,7 +1980,7 @@ spriteTypes = {
         }
 
         SpriteType = {
-            name = "GFX_GER_basic_light_spaa_medium"
+            name = "GFX_USA_basic_light_spaa_medium"
             texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/light_1/usa_combat_car_m1.dds"
         }
 
@@ -2124,8 +2132,8 @@ spriteTypes = {
             name = "GFX_USA_basic_heavy_tank_medium"
             texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/heavy_1/usa_heavy_m6.dds"
         }		
-				
-        SpriteType = {
+
+		SpriteType = {
             name = "GFX_USA_basic_heavy_td_medium"
             texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/heavy_1/usa_heavy_m6a2e1.dds"
         }
@@ -2465,6 +2473,10 @@ spriteTypes = {
 	#(American transport plane#	
 	    SpriteType = {
 		    name = "GFX_USA_transport_plane_equipment_medium"
+		    texturefile = "gfx/interface/technologies/usa_transport_plane_equipment.dds"
+	    }
+		SpriteType = {
+		    name = "GFX_USA_transport_plane_equipment_1_medium"
 		    texturefile = "gfx/interface/technologies/usa_transport_plane_equipment.dds"
 	    }
 	#)#	    
@@ -3284,6 +3296,10 @@ spriteTypes = {
 	#(British transport plane#	
 	    SpriteType = {
 		    name = "GFX_ENG_transport_plane_equipment_medium"
+		    texturefile = "gfx/interface/technologies/eng_transport_plane_equipment.dds"
+	    }
+		SpriteType = {
+		    name = "GFX_ENG_transport_plane_equipment_1_medium"
 		    texturefile = "gfx/interface/technologies/eng_transport_plane_equipment.dds"
 	    }
 	#)#	    
@@ -5075,6 +5091,10 @@ spriteTypes = {
 		    name = "GFX_SAF_transport_plane_equipment_medium"
 		    texturefile = "gfx/interface/technologies/eng_transport_plane_equipment.dds"
 	    }
+		SpriteType = {
+		    name = "GFX_SAF_transport_plane_equipment_1_medium"
+		    texturefile = "gfx/interface/technologies/eng_transport_plane_equipment.dds"
+	    }
 	#)#	    
 
   #)#
@@ -5915,147 +5935,322 @@ spriteTypes = {
 
  #(Japan#
  
-  #(Japanese tank#			
-		
-	#(Japanese great war tank#
+  #(Japanese tank# 
+  
+    #(Japanese great war tank#
+		SpriteType = {
+		    name = "GFX_JAP_gwtank_chassis_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_0/jap_type_94_tk_early.dds"
+	    }
+	
         SpriteType = {
             name = "GFX_JAP_gwtank_medium"
-            texturefile = "gfx/interface/technologies/JAP_gwtank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_0/jap_type_94_tk_early.dds"
         } 
 	#)#	    
 	
-    #(Japanese light tank#
+    #(Japanese light tank#			
 	    SpriteType = {
-            name = "GFX_JAP_basic_light_spaa_medium"
-            texturefile = "gfx/interface/technologies/JAP_basic_light_tank_aa.dds"
-        }
+		    name = "GFX_JAP_light_tank_chassis_0_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_0/jap_type_94_tk_early.dds"
+	    }
 		
 		SpriteType = {
-            name = "GFX_JAP_improved_light_tank_medium"
-            texturefile = "gfx/interface/technologies/JAP_imp_light_tank.dds"
+		    name = "GFX_JAP_basic_light_tank_chassis_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_1/jap_ha_go.dds" 
+	    }
+		
+		SpriteType = {
+		    name = "GFX_JAP_improved_light_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_2/jap_ke_ni_ko.dds"
+	    }
+
+		SpriteType = {
+		    name = "GFX_JAP_advanced_light_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_3/jap_ke_ho.dds"
+	    }
+		
+		SpriteType = {
+            name = "GFX_JAP_basic_light_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_1/jap_ha_go.dds" 
         }
 		
+        SpriteType = {
+            name = "GFX_JAP_basic_light_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_1/jap_ho_ru.dds" 
+        }
+
+        SpriteType = {
+            name = "GFX_JAP_basic_light_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_1/jap_ho_to.dds" 
+        }
+
+        SpriteType = {
+            name = "GFX_JAP_basic_light_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_1/jap_ha_go.dds" 
+        }
+
+        SpriteType = {
+            name = "GFX_JAP_improved_light_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_2/jap_ke_ni_ko.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_JAP_improved_light_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_2/jap_ke_ni_ko.dds"
+        }
+
         SpriteType = {
             name = "GFX_JAP_improved_light_art_medium"
-            texturefile = "gfx/interface/technologies/JAP_imp_light_tank_spa.dds"
-        }
-
-        SpriteType = {
-            name = "GFX_JAP_improved_light_spaa_medium"
-            texturefile = "gfx/interface/technologies/JAP_imp_light_tank_aa.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_2/jap_ke_ni_ko.dds"
         }
 		
 		SpriteType = {
-            name = "GFX_JAP_advanced_light_tank_medium"
-            texturefile = "gfx/interface/technologies/JAP_adv_light_tank.dds"	
+            name = "GFX_JAP_improved_light_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_2/jap_ke_ni_ko.dds"
         }
 
+		SpriteType = {
+            name = "GFX_JAP_advanced_light_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_3/jap_ke_ho.dds"
+        }
+		
         SpriteType = {
             name = "GFX_JAP_advanced_light_td_medium"
-            texturefile = "gfx/interface/technologies/JAP_adv_light_tank_td.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_3/jap_na_to.dds"
         }
 
         SpriteType = {
             name = "GFX_JAP_advanced_light_art_medium"
-            texturefile = "gfx/interface/technologies/JAP_adv_light_tank_spa.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_3/jap_ku_se.dds"
         }
 
         SpriteType = {
             name = "GFX_JAP_advanced_light_spaa_medium"
-            texturefile = "gfx/interface/technologies/JAP_adv_light_tank_aa.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/light_3/jap_ke_ho.dds" 
         }
 	#)#	    
-	
+	 
     #(Japanese medium tank#
+		SpriteType = {
+		    name = "GFX_JAP_medium_tank_chassis_0_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_0/jap_i_go_ko.dds"
+	    }
+
+		SpriteType = {
+		    name = "GFX_JAP_basic_medium_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_1/jap_chi_ha.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_JAP_improved_medium_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_2/jap_chi_to.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_JAP_advanced_medium_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_3/jap_chi_ri.dds"
+	    }
+			
+	    SpriteType = {
+            name = "GFX_JAP_basic_medium_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_1/jap_chi_ha.dds"
+        }
+		
         SpriteType = {
             name = "GFX_JAP_basic_medium_td_medium"
-            texturefile = "gfx/interface/technologies/JAP_basic_main_tank_td.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_1/jap_ho_ni_1.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_JAP_basic_medium_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_1/jap_ho_chi.dds"
         }
 
         SpriteType = {
-            name = "GFX_JAP_basic_medium_art_medium"
-            texturefile = "gfx/interface/technologies/JAP_basic_main_tank_spa.dds"
+            name = "GFX_JAP_basic_medium_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_1/jap_ta_ha.dds"
         }
 
 		SpriteType = {
-            name = "GFX_JAP_basic_medium_spaa_medium"
-            texturefile = "gfx/interface/technologies/JAP_basic_main_tank_aa.dds"
+            name = "GFX_JAP_improved_medium_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_2/jap_chi_to.dds"
         }
 		
         SpriteType = {
             name = "GFX_JAP_improved_medium_td_medium"
-            texturefile = "gfx/interface/technologies/JAP_imp_main_tank_td.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_2/jap_chi_to.dds"
         }
 
         SpriteType = {
             name = "GFX_JAP_improved_medium_art_medium"
-            texturefile = "gfx/interface/technologies/JAP_imp_main_tank_spa.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_2/jap_chi_to.dds"
         }
-		
+
+        SpriteType = {
+            name = "GFX_JAP_improved_medium_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_2/jap_chi_to.dds"
+        }
+
 		SpriteType = {
             name = "GFX_JAP_advanced_medium_tank_medium"
-            texturefile = "gfx/interface/technologies/JAP_adv_main_tank.dds"
-        }
-
-        SpriteType = {
-            name = "GFX_JAP_advanced_medium_td_medium"
-            texturefile = "gfx/interface/technologies/JAP_adv_main_tank_td.dds"
-        }
-
-        SpriteType = {
-            name = "GFX_JAP_advanced_medium_art_medium"
-            texturefile = "gfx/interface/technologies/JAP_adv_main_tank_spa.dds"
-        }
-	#)#	    
-	
-    #(Japanese heavy tank#	
-	    SpriteType = {
-            name = "GFX_JAP_basic_heavy_tank_medium"
-            texturefile = "gfx/interface/technologies/JAP_basic_heavy_tank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_3/jap_chi_ri.dds"
         }
 		
         SpriteType = {
-            name = "GFX_JAP_basic_heavy_td_medium"
-            texturefile = "gfx/interface/technologies/JAP_basic_heavy_tank_td.dds"
+            name = "GFX_JAP_advanced_medium_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_3/jap_ho_ri_1.dds"	
         }
 		
 		SpriteType = {
-            name = "GFX_JAP_basic_heavy_art_medium"
-            texturefile = "gfx/interface/technologies/JAP_basic_heavy_tank_spa.dds"
+            name = "GFX_JAP_advanced_medium_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_3/jap_chi_ri.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_JAP_advanced_medium_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/medium_3/jap_chi_ri.dds"
+        }
+ 	#)#	    
+	
+    #(Japanese heavy tank#
+	    SpriteType = {
+		    name = "GFX_JAP_heavy_tank_chassis_0_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_0/jap_type_91.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_JAP_basic_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_1/jap_ro_go.dds"	
+	    }
+		
+		SpriteType = {
+		    name = "GFX_JAP_improved_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_2/jap_ji_ha.dds"	
+	    }
+		
+		SpriteType = {
+		    name = "GFX_JAP_advanced_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_3/jap_ji_ni.dds"	
+	    }
+
+        SpriteType = {
+            name = "GFX_JAP_basic_heavy_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_1/jap_ro_go.dds"	
+        }		
+				
+        SpriteType = {
+            name = "GFX_JAP_basic_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_1/jap_ji_ro_version_1.dds"
         }
 
         SpriteType = {
+            name = "GFX_JAP_basic_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_1/jap_ro_go.dds"	
+        }
+		
+        SpriteType = {
+            name = "GFX_JAP_basic_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_1/jap_ro_go.dds"	
+        }
+		
+        SpriteType = {
             name = "GFX_JAP_improved_heavy_tank_medium"
-            texturefile = "gfx/interface/technologies/JAP_imp_heavy_tank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_2/jap_ji_ha.dds"	
         }
 		
         SpriteType = {
             name = "GFX_JAP_improved_heavy_td_medium"
-            texturefile = "gfx/interface/technologies/JAP_imp_heavy_tank_td.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_2/jap_ji_ha.dds"	
         }
 
         SpriteType = {
             name = "GFX_JAP_improved_heavy_art_medium"
-            texturefile = "gfx/interface/technologies/JAP_imp_heavy_tank_spa.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_2/jap_ji_ha.dds"	
         }
 		
+        SpriteType = {
+            name = "GFX_JAP_improved_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_2/jap_ji_ha.dds"	
+        }
+
 		SpriteType = {
             name = "GFX_JAP_advanced_heavy_tank_medium"
-            texturefile = "gfx/interface/technologies/JAP_adv_heavy_tank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_3/jap_ji_ni.dds"	
+        }
+		
+        SpriteType = {
+            name = "GFX_JAP_advanced_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_3/jap_ji_ni.dds"	
+        }
+
+        SpriteType = {
+            name = "GFX_JAP_advanced_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_3/jap_ji_ni.dds"	
+        }
+		
+        SpriteType = {
+            name = "GFX_JAP_advanced_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/heavy_3/jap_ji_ni.dds"	
         }
 	#)#	    
 	
-	#(Japanese main battle tank#
+    #(Japanese main battle tank#
+        SpriteType = {
+            name = "GFX_JAP_modern_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/modern/jap_type_61.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_JAP_main_battle_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/modern/jap_type_61.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_JAP_main_battle_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/modern/jap_type_61.dds"
+        }
+		
         SpriteType = {
             name = "GFX_JAP_modern_td_medium"
-            texturefile = "gfx/interface/technologies/JAP_main_battle_tank_td.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/modern/jap_type_61.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_JAP_modern_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/modern/jap_type_61.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_JAP_modern_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/modern/jap_type_61.dds"
         }
 	#)#	    
-			
+	
     #(Japanese super heavy tank#
         SpriteType = {
+            name = "GFX_JAP_super_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/super_heavy/jap_o_i.dds"
+        }
+
+        SpriteType = {
             name = "GFX_JAP_super_heavy_tank_medium"
-            texturefile = "gfx/interface/technologies/JAP_superheavy_tank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/super_heavy/jap_o_i.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_JAP_super_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/super_heavy/jap_o_i.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_JAP_super_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/super_heavy/jap_o_i.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_JAP_super_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_JAP/super_heavy/jap_o_i.dds"
         }
 	#)#	    
 
@@ -6277,6 +6472,10 @@ spriteTypes = {
 	#(Japanese transport plane#	
 	    SpriteType = {
 		    name = "GFX_JAP_transport_plane_equipment_medium"
+		    texturefile = "gfx/interface/technologies/jap_transport_plane_equipment.dds"
+	    }
+		SpriteType = {
+		    name = "GFX_JAP_transport_plane_equipment_1_medium"
 		    texturefile = "gfx/interface/technologies/jap_transport_plane_equipment.dds"
 	    }
 	#)#	    
@@ -6767,131 +6966,333 @@ spriteTypes = {
   #(Italian tank#	
 		
     #(Italian great war tank#
+		SpriteType = {
+		    name = "GFX_ITA_gwtank_chassis_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_0/ita_fiat_3000.dds"
+	    }
+	
         SpriteType = {
             name = "GFX_ITA_gwtank_medium"
-            texturefile = "gfx/interface/technologies/ITA_gwtank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_0/ita_fiat_3000.dds"
         } 
 	#)#	    
 	
-    #(Italian light tank#	
+    #(Italian light tank#			
 	    SpriteType = {
+		    name = "GFX_ITA_light_tank_chassis_0_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_0/ita_fiat_3000.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_ITA_basic_light_tank_chassis_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_1/ita_l3_33.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_ITA_improved_light_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_2/ita_m11_39.dds"
+	    }
+
+		SpriteType = {
+		    name = "GFX_ITA_advanced_light_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_3/ita_sahariano.dds"
+	    }
+		
+		SpriteType = {
             name = "GFX_ITA_basic_light_tank_medium"
-            texturefile = "gfx/interface/technologies/ITA_basic_light_tank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_1/ita_l3_33.dds"
         }
 		
         SpriteType = {
             name = "GFX_ITA_basic_light_td_medium"
-            texturefile = "gfx/interface/technologies/ITA_basic_light_tank_td.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_1/ita_l3_33_cc.dds"
         }
 
+        SpriteType = {
+            name = "GFX_ITA_basic_light_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_1/ita_semovente_m6.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_ITA_basic_light_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_1/ita_l3_33.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_ITA_improved_light_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_2/ita_m11_39.dds"
+        }
+		
         SpriteType = {
             name = "GFX_ITA_improved_light_td_medium"
-            texturefile = "gfx/interface/technologies/ITA_imp_light_tank_td.dds"
-        }
-		
-		SpriteType = {
-            name = "GFX_ITA_improved_light_art_medium"
-            texturefile = "gfx/interface/technologies/ITA_imp_light_tank_spa.dds"
-        }
-		
-		SpriteType = {
-            name = "GFX_ITA_advanced_light_tank_medium"
-            texturefile = "gfx/interface/technologies/ITA_adv_light_tank.dds"	
-        }
-	#)#	    
-	
-    #(Italian medium tank#
-	    SpriteType = {
-            name = "GFX_ITA_basic_medium_tank_medium"
-            texturefile = "gfx/interface/technologies/ITA_basic_main_tank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_2/ita_semovente_75_34_m42m.dds"
         }
 
         SpriteType = {
+            name = "GFX_ITA_improved_light_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_2/ita_semovente_75_18_m41.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_ITA_improved_light_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_2/ita_semovente_20_70_m42.dds"
+        }
+
+		SpriteType = {
+            name = "GFX_ITA_advanced_light_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_3/ita_sahariano.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_ITA_advanced_light_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_3/ita_sahariano.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_ITA_advanced_light_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_3/ita_sahariano.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_ITA_advanced_light_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_3/ita_sahariano.dds"
+        }
+	#)#	    
+	 
+    #(Italian medium tank#
+		SpriteType = {
+		    name = "GFX_ITA_medium_tank_chassis_0_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_0/ita_carro_di_rottura_da_10t.dds"
+	    }
+
+		SpriteType = {
+		    name = "GFX_ITA_basic_medium_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_1/ita_p26_40_prototype.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_ITA_improved_medium_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_2/ita_p43.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_ITA_advanced_medium_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_3/ita_p45_44.dds"
+	    }
+			
+	    SpriteType = {
+            name = "GFX_ITA_basic_medium_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_1/ita_p26_40.dds"
+        }
+		
+        SpriteType = {
             name = "GFX_ITA_basic_medium_td_medium"
-            texturefile = "gfx/interface/technologies/ITA_basic_main_tank_td.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_1/ita_p26_40.dds"
         }
 		
         SpriteType = {
             name = "GFX_ITA_basic_medium_art_medium"
-            texturefile = "gfx/interface/technologies/ITA_basic_main_tank_spa.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_1/ita_semovente_149_40_m42.dds"
         }
 
         SpriteType = {
+            name = "GFX_ITA_basic_medium_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_1/ita_p26_40.dds"
+        }
+
+		SpriteType = {
             name = "GFX_ITA_improved_medium_tank_medium"
-            texturefile = "gfx/interface/technologies/ITA_imp_main_tank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_2/ita_p43.dds"
         }
 		
         SpriteType = {
             name = "GFX_ITA_improved_medium_td_medium"
-            texturefile = "gfx/interface/technologies/ITA_imp_main_tank_td.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_2/ita_p43.dds"
         }
 
         SpriteType = {
             name = "GFX_ITA_improved_medium_art_medium"
-            texturefile = "gfx/interface/technologies/ITA_imp_main_tank_spa.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_2/ita_p43.dds"
         }
-		
-		SpriteType = {
+
+        SpriteType = {
             name = "GFX_ITA_improved_medium_spaa_medium"
-            texturefile = "gfx/interface/technologies/ITA_imp_main_tank_aa.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_2/ita_p43.dds"
         }
 
 		SpriteType = {
             name = "GFX_ITA_advanced_medium_tank_medium"
-            texturefile = "gfx/interface/technologies/ITA_adv_main_tank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_3/ita_p45_44.dds"
         }
 		
         SpriteType = {
             name = "GFX_ITA_advanced_medium_td_medium"
-            texturefile = "gfx/interface/technologies/ITA_adv_main_tank_td.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_3/ita_p45_44.dds"
         }
-
-        SpriteType = {
+		
+		SpriteType = {
             name = "GFX_ITA_advanced_medium_art_medium"
-            texturefile = "gfx/interface/technologies/ITA_adv_main_tank_spa.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_3/ita_p45_44.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_ITA_advanced_medium_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/medium_3/ita_p45_44.dds"
+        }
+ 	#)#	    
+	
+    #(Italian heavy tank#
+	    SpriteType = {
+		    name = "GFX_ITA_heavy_tank_chassis_0_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_0/ita_fiat_2000_no1.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_ITA_basic_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_1/ita_p75_version_1.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_ITA_improved_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_2/ita_p56_44.dds"
+	    }
+		
+		SpriteType = {
+		    name = "GFX_ITA_advanced_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_3/ita_p65_45.dds"
+	    }
+
+        SpriteType = {
+            name = "GFX_ITA_basic_heavy_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_1/ita_p75_version_1.dds"
+        }		
+				
+        SpriteType = {
+            name = "GFX_ITA_basic_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_1/ita_p75_version_1.dds"
         }
 
         SpriteType = {
-            name = "GFX_ITA_advanced_medium_spaa_medium"
-            texturefile = "gfx/interface/technologies/ITA_adv_main_tank_aa.dds"
+            name = "GFX_ITA_basic_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_1/ita_p75_version_1.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_ITA_basic_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_1/ita_p75_version_1.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_ITA_improved_heavy_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_2/ita_p56_44.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_ITA_improved_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_2/ita_p56_44.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_ITA_improved_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_2/ita_p56_44.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_ITA_improved_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_2/ita_p56_44.dds"
+        }
+
+		SpriteType = {
+            name = "GFX_ITA_advanced_heavy_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_3/ita_p65_45.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_ITA_advanced_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_3/ita_p65_45.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_ITA_advanced_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_3/ita_p65_45.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_ITA_advanced_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/heavy_3/ita_p65_45.dds"
         }
 	#)#	    
 	
-    #(Italian heavy tank#	
-	    SpriteType = {
-            name = "GFX_ITA_basic_heavy_tank_medium"
-            texturefile = "gfx/interface/technologies/ITA_basic_heavy_tank.dds"
-        }
-		
-		SpriteType = {
-            name = "GFX_ITA_improved_heavy_tank_medium"
-            texturefile = "gfx/interface/technologies/ITA_imp_heavy_tank.dds"
+    #(Italian main battle tank#
+        SpriteType = {
+            name = "GFX_ITA_modern_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/modern/ita_m35_48.dds"
         }
 		
         SpriteType = {
-            name = "GFX_ITA_improved_heavy_art_medium"
-            texturefile = "gfx/interface/technologies/ITA_imp_heavy_tank_spa.dds"
+            name = "GFX_ITA_main_battle_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/modern/ita_m35_48.dds"
         }
 		
 		SpriteType = {
-            name = "GFX_ITA_advanced_heavy_tank_medium"
-            texturefile = "gfx/interface/technologies/ITA_adv_heavy_tank.dds"
+            name = "GFX_ITA_main_battle_tank_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/modern/ita_m35_48.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_ITA_modern_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/modern/ita_m35_48.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_ITA_modern_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/modern/ita_m35_48.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_ITA_modern_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/modern/ita_m35_48.dds"
         }
 	#)#	    
-
-	#(Italian main battle tank#
-        SpriteType = {
-            name = "GFX_ITA_main_battle_tank_medium"
-            texturefile = "gfx/interface/technologies/ITA_main_battle_tank.dds"
-        }
-	#)#	
 	
     #(Italian super heavy tank#
         SpriteType = {
+            name = "GFX_ITA_super_heavy_tank_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/super_heavy/ita_il_duce.dds"
+        }
+
+        SpriteType = {
             name = "GFX_ITA_super_heavy_tank_medium"
-            texturefile = "gfx/interface/technologies/ITA_superheavy_tank.dds"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/super_heavy/ita_il_duce.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_ITA_super_heavy_td_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/super_heavy/ita_il_duce.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_ITA_super_heavy_art_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/super_heavy/ita_hand_of_god.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_ITA_super_heavy_spaa_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/super_heavy/ita_il_duce.dds"
         }
 	#)#	    
+
+	#(Italian amphibious tank#	
+	    SpriteType = {
+		    name = "GFX_ITA_amphibious_tank_chassis_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/amphibious/ita_a7_38.dds"
+	    }
+	
+		SpriteType = {
+		    name = "GFX_ITA_amphibious_tank_medium"
+		    texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/amphibious/ita_a7_38.dds"
+	    }
+	#)#
 	
   #)#
 
@@ -7059,6 +7460,10 @@ spriteTypes = {
 	#(Italian transport plane#	
 	    SpriteType = {
 		    name = "GFX_ITA_transport_plane_equipment_medium"
+		    texturefile = "gfx/interface/technologies/ita_transport_plane_equipment.dds"
+	    }
+		SpriteType = {
+		    name = "GFX_ITA_transport_plane_equipment_1_medium"
 		    texturefile = "gfx/interface/technologies/ita_transport_plane_equipment.dds"
 	    }
 	#)#	    
@@ -8058,6 +8463,10 @@ spriteTypes = {
 		    name = "GFX_FRA_transport_plane_equipment_medium"
 		    texturefile = "gfx/interface/technologies/fra_transport_plane_equipment.dds"
 	    }
+		SpriteType = {
+		    name = "GFX_FRA_transport_plane_equipment_1_medium"
+		    texturefile = "gfx/interface/technologies/fra_transport_plane_equipment.dds"
+	    }
 	#)#	
 
     #(French scout plane#
@@ -8749,6 +9158,10 @@ spriteTypes = {
 	#(Polish transport plane#	
 	    SpriteType = {
 		    name = "GFX_POL_transport_plane_equipment_medium"
+		    texturefile = "gfx/interface/technologies/pol_transport_plane_equipment.dds"
+	    }
+		SpriteType = {
+		    name = "GFX_POL_transport_plane_equipment_1_medium"
 		    texturefile = "gfx/interface/technologies/pol_transport_plane_equipment.dds"
 	    }
 	#)#	
@@ -10276,6 +10689,10 @@ spriteTypes = {
 		    name = "GFX_CZE_transport_plane_equipment_medium"
 		    texturefile = "gfx/interface/technologies/cze_transport_plane_equipment.dds"
 	    }
+		SpriteType = {
+		    name = "GFX_CZE_transport_plane_equipment_1_medium"
+		    texturefile = "gfx/interface/technologies/cze_transport_plane_equipment.dds"
+	    }
 	#)#	
 
     #(Czechoslovakian scout plane#
@@ -10639,6 +11056,48 @@ spriteTypes = {
   #)#
 
  #)#
+
+ #(Switzerland#
+ 
+  #(Swiss infantry#  		
+
+    #(Swiss infantry weapon#
+        SpriteType = {
+            name = "GFX_SWI_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/SWI_infantry_equipment_0.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWI_infantry_weapons1_medium"
+            texturefile = "gfx/interface/technologies/SWI_infantry_equipment_1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWI_improved_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/SWI_infantry_equipment_2.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_SWI_advanced_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/SWI_infantry_equipment_3.dds"
+        }
+	#)#	    
+
+    #(Swiss mobile infantry vehicle#
+        SpriteType = {
+            name = "GFX_SWI_motorised_infantry_medium"
+            texturefile = "gfx/interface/technologies/SWI_motorized_equipment_1.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_SWI_motorized_equipment_1_medium"
+            texturefile = "gfx/interface/technologies/SWI_motorized_equipment_1.dds"
+        }
+	#)#	    
+	
+  #)#
+
+ #)#
  
  #(Sweden#
 
@@ -10946,6 +11405,10 @@ spriteTypes = {
 	#(Swedish transport plane#	
 	    SpriteType = {
 		    name = "GFX_SWE_transport_plane_equipment_medium"
+		    texturefile = "gfx/interface/technologies/swe_transport_plane_equipment.dds"
+	    }
+		SpriteType = {
+		    name = "GFX_SWE_transport_plane_equipment_1_medium"
 		    texturefile = "gfx/interface/technologies/swe_transport_plane_equipment.dds"
 	    }
 	#)#	

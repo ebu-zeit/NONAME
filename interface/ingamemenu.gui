@@ -6,7 +6,7 @@ guiTypes = {
 		size = { width = 320 height = 415}
 		Orientation = center
 		Origo = center		
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		show_sound = click_expand
 		
@@ -43,6 +43,25 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+		}
+		
+		buttonType = {
+			name = "menu_playthrough_stats_button"
+			position = { x = 16 y = 138}
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "MENU_BAR_PLAYTHROUGH_STATS"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+
+		iconType = {
+			name = "menu_playthrough_stats_button_star"
+			position = { x = -37 y = 155 }
+			spriteType = "GFX_icon_best_in_career"
+			centerposition = yes
+			orientation = upper_right
+			alwaysTransparent = yes
 		}
 		
 		buttonType = {
@@ -87,60 +106,62 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 
+		positionType = {
+			name = "playthrough_stats_offset"
+			position = { x = 0 y = 40 }
+		}
+
 		## facebook etc.
 		ButtonType = {
 			name = "homepage_button"
 			position = { x = 59 y = 349 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
-			pdx_tooltip = "MENU_HOMEPAGE"
-			web_link = "https://discord.gg/NsWS7sZByY"
+			web_link = "http://www.discord.gg/5ys8JVe"
 		}
 		ButtonType = {
 			name = "forum_button"
 			position = { x = 99 y = 349 }
-			quadTextureSprite ="forum"
+			quadTextureSprite ="homepage"
 			clicksound = click_default
-			pdx_tooltip = "MENU_FORUM"
-			web_link = "https://discord.gg/NsWS7sZByY"
+			web_link = "http://www.discord.gg/5ys8JVe"
 		}
 		ButtonType = {
 			name = "facebook_button"
 			position = { x = 139 y = 349 }
-			quadTextureSprite ="facebook"
+			quadTextureSprite ="homepage"
 			clicksound = click_default
-			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://discord.gg/NsWS7sZByY"
+			web_link = "http://www.discord.gg/5ys8JVe"
 		}			
 		
 		ButtonType = {
 			name = "twitter_button"
 			position = { x = 179 y = 349 }
-			quadTextureSprite ="twitter"
+			quadTextureSprite ="homepage"
 			#clicksound = click_default
-			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://discord.gg/NsWS7sZByY"
+			web_link = "http://www.discord.gg/5ys8JVe"
 		}
 		
 		ButtonType = {
 			name = "privacy_policy_button"
 			position = { x = 219 y = 349 }
-			quadTextureSprite ="privacy"
+			quadTextureSprite ="homepage"
 			#clicksound = click_default
-			pdx_tooltip = "MENU_PRIVACY_POLICY"
 		}
 
 		ButtonType = {
 			name = "achievements_button"
 			position = { x = 259 y = 349 }
-			quadTextureSprite ="achievements"
+			quadTextureSprite ="homepage"
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
+			web_link = "http://www.discord.gg/5ys8JVe"
+
 		}
 	}
 	
 	containerWindowType = {
 		name ="ingamemenu_load"
-		position = { x = -210 y = -250 }	
+		position = { x = -236 y = -270 }
 		size = { width = 420 height = 500}
 		Orientation = center
 
@@ -158,10 +179,22 @@ guiTypes = {
 				name = "Background"		
 				quadTextureSprite ="GFX_no_frame_special_bg"
 			}
-			
+						instantTextBoxType={
+				position = { x = 0 y = 0 }
+				name = "disk_quota"
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = { x = 8 y = 5 }
+				maxWidth = 320
+				maxHeight = 10
+				text = ""
+				orientation = "UPPER_LEFT"
+				format = centre
+				fixedsize = yes
+			}
 			gridBoxType = {
 				name = "games_grid"
-				position = { x=13 y =2}
+				position = { x=13 y =24}
 				size = { width =280 height = 400}
 				slotsize = { width = 280 height = 55 }
 				format = "UPPER_LEFT"
@@ -271,7 +304,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name ="ingamemenu_save"
-		position = { x=-210 y =-250 }	
+		position = { x = -236 y = -270 }
 		size = { width = 420 height = 500}
 		Orientation = center
 		
@@ -305,19 +338,7 @@ guiTypes = {
 			fixedsize = yes
 			truncate = yes
 		}
-		
-		instantTextBoxType={
-			position = { x = 275 y = 379 }
-			name = "disk_quota"
-			font = "hoi_20bs"
-			borderSize = { x = 8 y = 0 }	
-			maxWidth = 188
-			maxHeight = 18
-			text = "MENU_BAR_DISK_QUOTA"	
-			orientation = "UPPER_LEFT"
-			format = centre
-		}
-		
+
 		checkboxType = {
 			name = "localgames_tab"
 			position = { x = 105  y = 84 }
@@ -371,10 +392,22 @@ guiTypes = {
 				name = "Background"		
 				quadTextureSprite ="GFX_no_frame_special_bg"
 			}
-			
+					instantTextBoxType={
+				position = { x = 0 y = 0 }
+				name = "disk_quota"
+				textureFile = ""
+				font = "hoi_16mbs"
+				borderSize = { x = 8 y = 5 }
+				maxWidth = 320
+				maxHeight = 10
+				text = "REMOTE_STORAGE_USAGE"
+				orientation = "UPPER_LEFT"
+				format = centre
+				fixedsize = yes
+			}
 			gridBoxType = {
 				name = "games_grid"
-				position = { x=13 y =15}
+				position = { x=13 y =24}
 				size = { width =280 height = 400}
 				slotsize = { width = 280 height = 55 }
 				format = "UPPER_LEFT"

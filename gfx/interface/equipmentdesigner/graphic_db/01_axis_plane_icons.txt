@@ -41,11 +41,13 @@ GER = {
 			weight = 0.5
 			models = {
 				"GER_fighter_equipment_3_entity"
- 				"GER_CAS_equipment_3_entity"
+				"GER_cv_fighter_equipment_3_entity"
+				"GER_CAS_equipment_3_entity"
 				"GER_CAS_equipment_2_entity"
 				"GER_fighter_equipment_2_entity"
 				"GER_nav_bomber_equipment_2_entity"
- 
+				"GER_cv_fighter_equipment_1_entity"
+				"GER_cv_nav_bomber_equipment_1_entity"
 				"GER_CAS_equipment_1_entity"
 				"GER_nav_bomber_equipment_1_entity"
 				"GER_fighter_equipment_0_entity"
@@ -57,6 +59,7 @@ GER = {
 			}
 		}
 	}
+
  
 	medium_plane_airframe = {
 		pool = {
@@ -96,7 +99,7 @@ POL = {
 		}
 	}
 
- 
+	 
 
 	medium_plane_airframe = {
 		pool = {
@@ -195,7 +198,7 @@ HUN = {
 			}
 		}
 	}
- 
+	 
 	medium_plane_airframe = {
 		pool = {
 			models = {
@@ -260,7 +263,7 @@ YUG = {
 			}
 		}
 	}	
- 
+	 
 	medium_plane_airframe = {
 		pool = {
 			limit = {
