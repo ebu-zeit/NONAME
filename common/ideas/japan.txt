@@ -70,12 +70,10 @@ ideas = {
 				army_core_defence_factor = 0.05
 			}
 			equipment_bonus={
-				fighter_equipment={
-					air_range=0.1
+				small_plane_airframe={
+					air_range=0.15
 				}
-				CAS_equipment={
-					air_range=0.2
-				}
+
 			}
 		}
 		JAP_banzai = {
@@ -595,14 +593,10 @@ ideas = {
 			}
 			picture = generic_air_research
 			equipment_bonus = {
-				CAS_equipment = {
+				small_plane_cas_airframe = {
 					build_cost_ic = -0.1
 					instant = yes
-				}
-				tac_bomber_equipment = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
+				} 
 			}
 		}
 		JAP_prioritize_naval_aircraft_construction = {
@@ -726,6 +720,12 @@ ideas = {
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
 			}
+			equipment_bonus = {
+				small_plane_airframe = {
+					air_agility = 0.25
+					maximum_speed = 0.1
+				}
+			}
 			available = {
 				has_completed_focus = JAP_agility_focus
 			}
@@ -741,6 +741,12 @@ ideas = {
 			}
 			available = {
 				has_completed_focus = JAP_range_focus
+			}
+			equipment_bonus = {
+				small_plane_airframe = {
+					air_range = 0.25
+					maximum_speed = 0.1
+				}
 			}
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
@@ -758,6 +764,14 @@ ideas = {
 			}
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
+			}
+			equipment_bonus = {
+				small_plane_airframe = {
+					air_range = 0.10
+					air_ground_attack = 0.1
+					naval_strike_attack = 0.2
+					maximum_speed = 0.1
+				}
 			}
 			cost = 100
 			research_bonus = {

@@ -572,19 +572,19 @@ technologies = {
 		category_all_armor = {
 			breakthrough = 0.1
 			max_organisation = 2
-			default_morale = 0.1
+			default_morale = 0.05
 		}
 		motorized = {
-			max_organisation = 10
-			default_morale = 0.2
+			max_organisation = 8
+			default_morale = 0.1
 		}
 		mechanized = {
-			max_organisation = 10
-			default_morale = 0.2
+			max_organisation = 8
+			default_morale = 0.1
 		}
 		amphibious_mechanized = {
-			max_organisation = 10
-			default_morale = 0.2
+			max_organisation = 8
+			default_morale = 0.1
 		}
 		enable_tactic = tactic_blitz
 		path = {

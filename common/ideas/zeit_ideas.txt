@@ -1518,7 +1518,9 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 
+			 trait={
+				light_aircraft_manufacturer
+			 }
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
 			}
@@ -1533,7 +1535,9 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 
+			 trait={
+				medium_aircraft_manufacturer
+			 }
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
 			}
@@ -1549,7 +1553,9 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 
+			 trait={
+ 				CAS_manufacturer
+			 }
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
 			}
@@ -1566,7 +1572,9 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 
+			trait={
+				naval_aircraft_manufacturer
+ 			 }
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
 			}
@@ -1582,7 +1590,9 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 
+			 trait={
+				fuel_efficient_aircraft_manufacturer
+			 }
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
 			}
@@ -1598,7 +1608,9 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			 
+			 trait={
+				heavy_aircraft_manufacturer
+			 }
 			modifier = {
 				aircraft_manufacturer_cost_factor = -1
 			}

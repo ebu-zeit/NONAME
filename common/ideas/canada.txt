@@ -179,34 +179,14 @@ ideas = {
 			removal_cost = -1
 			picture = generic_air_bonus
 			equipment_bonus = {
-				fighter_equipment = {
+				small_plane_airframe = {
 					air_attack = 0.05
-					instant = yes
-				}
-				CAS_equipment = {
 					air_ground_attack = 0.05
-					instant = yes
-				}
-				nav_bomber_equipment = {
 					naval_strike_attack = 0.05
-					instant = yes
-				}
-				tac_bomber_equipment = {
-					air_ground_attack = 0.05
-					instant = yes
-				}
-				heavy_fighter_equipment = {
-					air_attack = 0.05
-					instant = yes
-				}
-				strat_bomber_equipment = {
 					air_bombing = 0.05
 					instant = yes
 				}
-				transport_plane_equipment = {
-					air_range = 0.5
-					instant = yes
-				}
+	 
 			}
 		}
 		CAN_degauss_ship_hulls = {
