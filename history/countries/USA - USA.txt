@@ -161,8 +161,6 @@ set_technology = {
 	engines_1 = 1
 	engines_2 = 1
 	aa_lmg = 1
-	early_bombs = 1
-	aircraft_construction = 1
 
 	tech_logistics_company = 1
 	tech_field_hospital = 1

@@ -531,32 +531,7 @@ technologies = {
 		}
 	}
 
-	main_battle_tank_chassis = { #E-50
-		allow={
-			always=no
-		}
-		enable_equipments = {
-			modern_tank_chassis_1
-			modern_tank_destroyer_chassis_1
-			modern_tank_artillery_chassis_1
-		}
-		enable_subunits = {
-			modern_armor
-		}
-
-		research_cost = 10
-		start_year = 1945
-
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1945 }
-		}
-		categories = {
-			armor
-			cat_medium_armor
-		}
-	}
-
+	 
 
 	basic_heavy_tank_chassis = { #Grosstraktor
 

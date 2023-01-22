@@ -14,7 +14,7 @@ equipments = {
 			interceptor
 			cas
 			naval_bomber
-			suicide
+			
 		}
 		allow_mission_type = training
 		group_by = archetype
@@ -84,6 +84,7 @@ equipments = {
 				}
 			}
 		}
+		 
 		module_count_limit = {
 			module = guided_anti_ship_missile
 			count < 2

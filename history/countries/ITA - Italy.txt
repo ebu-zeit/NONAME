@@ -49,14 +49,12 @@ set_technology = {
 	infantry_weapons1 = 1
 	#air
 	aa_lmg = 1
-	early_bombs = 1
-	aircraft_construction = 1
 	engines_1 = 1
-	engines_2 = 1
-	iw_small_airframe = 1
+ 	iw_small_airframe = 1
 	iw_medium_airframe = 1
-	basic_small_airframe = 1
+	iw_large_airframe = 1
 	basic_medium_airframe = 1
+	basic_small_airframe = 1
 
 	tech_military_police = 1
 	tech_recon = 1

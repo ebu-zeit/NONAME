@@ -47,11 +47,9 @@ set_technology = {
 	infantry_weapons1 = 1
 
 	aa_lmg = 1
-	aircraft_construction = 1
-	iw_small_airframe = 1
+ 	iw_small_airframe = 1
 	engines_1 = 1
-	early_bombs = 1
-
+ 
 	tech_engineers = 1
 	tech_recon = 1
 

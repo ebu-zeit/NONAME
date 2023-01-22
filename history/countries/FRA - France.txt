@@ -123,13 +123,12 @@ set_technology = {
 
 	#air
 	aa_lmg = 1
- 
 	engines_1 = 1
- 
-	aircraft_construction = 1
-	iw_small_airframe = 1
+ 	iw_small_airframe = 1
 	iw_medium_airframe = 1
 	iw_large_airframe = 1
+	basic_medium_airframe = 1
+	basic_small_airframe = 1
 
 	#support
 	tech_signal_company = 1
