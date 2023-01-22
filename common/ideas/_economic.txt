@@ -1,6 +1,39 @@
 ideas = {
 	economy = {
 		law = yes
+			SPR_collectivized_society = {
+				picture = SPR_collectivized_society
+				allowed = {
+					always = no
+				}
+				available = {
+					tag = SOV
+				}
+				removal_cost = -1
+				modifier = {
+					industrial_capacity_factory = 0.1
+					industrial_capacity_dockyard = 0.15
+					production_speed_buildings_factor = 0.1
+					research_speed_factor = 0.08
+					consumer_goods_factor = 0.15
+					production_factory_max_efficiency_factor = 0.1
+					production_factory_efficiency_gain_factor = -0.2
+					production_speed_arms_factory_factor = 0.2
+					production_speed_industrial_complex_factor = 0.15
+					conversion_cost_civ_to_mil_factor = -0.2
+					conversion_cost_mil_to_civ_factor = -0.2
+				}
+				equipment_bonus={
+				convoy = {
+					instant = yes
+					build_cost_ic = 10
+				}}
+				allowed_to_remove = {
+					always = no
+				}
+				cancel_if_invalid = no
+			}
+		
 		undisturbed_isolation = {
 
 
