@@ -1706,6 +1706,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
+				play_song = "Japanese_army_march"
+			}
+			
+			hidden_effect = {
 				JAP = {
 					transfer_state = 672
 					transfer_state = 335
