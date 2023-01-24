@@ -1,6 +1,0 @@
-music_station = "allied_speeches"
-
-music = {
-	song = "Japanese_army_march"
-	chance = { factor = 0 }
-}
