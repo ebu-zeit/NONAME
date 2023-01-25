@@ -1891,6 +1891,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/fuel_silos.dds"
 	}
 	SpriteType = {
+		name = "GFX_Capslock_medium"
+		texturefile = "gfx/interface/technologies/Capslock.dds"
+	}
+	SpriteType = {
+		name = "GFX_Witman_medium"
+		texturefile = "gfx/interface/technologies/Witman.dds"
+	}
+	SpriteType = {
 		name = "GFX_fuel_refining_medium"
 		texturefile = "gfx/interface/technologies/fuel_refining1.dds"
 	}

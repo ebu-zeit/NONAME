@@ -268,7 +268,21 @@ guiTypes = {
 				format = "LEFT"
 
 			}
-
+			gridboxtype = {
+				name = "mrjuggle1_tree"
+				position = { x = 290 y = 400 }
+				size = { width =72 height = 650 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "mrjuggle2_tree"
+				position = { x = 290 y = 400 }
+				size = { width =72 height = 650 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			
 			gridboxtype = {
 				name = "motorised_infantry_tree"
 				position = { x = 140 y = 620 }
@@ -3031,6 +3045,18 @@ guiTypes = {
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
 					text = "INDUSTRY_TITLE_CONSTRUCTION"
+					maxWidth = 250
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "industry_subtitle_construction2"
+					position = { x = 871 y = 135  }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "MR JUGGLE"
 					maxWidth = 250
 					maxHeight = 62
 					format = center

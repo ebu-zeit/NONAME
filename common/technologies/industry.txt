@@ -681,7 +681,14 @@ technologies = {
 			leads_to_tech = fuel_refining 
 			research_cost_coeff = 1
 		}
-		
+		path = {
+			leads_to_tech = Witman
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = Capslock
+			research_cost_coeff = 1
+		}
 		research_cost = 1
 		start_year = 1936
 		folder = {

@@ -1,0 +1,23 @@
+technologies = {
+	Witman = {
+ 		research_cost = 0
+		XOR = {
+			Capslock
+		}
+		folder = {
+			name = industry_folder
+			position = { x = -3 y = 0 }
+		}
+	}
+	Capslock = {
+		XOR = {
+			Witman
+		}
+		research_cost = 0
+		folder = {
+			name = industry_folder
+			position = { x = -5 y = 0 }
+		}
+	}
+}
+
